@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 import re
 import sys
 import time
@@ -55,20 +56,21 @@ USER_AGENTS = [
     "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0",
 ]
 
-# Newspaper search configs: (base_search_url_template, article_url_regex)
-NEWSPAPER_SITES: list[tuple[str, str]] = [
-    (
-        "https://elbuho.pe/?s={query}",
-        r'href="(https://elbuho\.pe/\d{4}/\d{2}/[^"]+)"',
-    ),
-    (
-        "https://sudaca.pe/?s={query}",
-        r'href="(https://sudaca\.pe/noticia/[^"]+)"',
-    ),
-    (
-        "https://wayka.pe/?s={query}",
-        r'href="(https://wayka\.pe/[^"]+)"',
-    ),
+# Newspaper configs: (type, url_template, article_url_regex)
+# type: "search" = query param, "tag" = slugified path, "sitemap" = XML filtered by keywords
+NEWSPAPER_SITES: list[tuple[str, str, str]] = [
+    # Search-based (WordPress /?s=)
+    ("search", "https://elbuho.pe/?s={query}", r'href="(https://elbuho\.pe/\d{4}/\d{2}/[^"]+)"'),
+    ("search", "https://sudaca.pe/?s={query}", r'href="(https://sudaca\.pe/noticia/[^"]+)"'),
+    ("search", "https://wayka.pe/?s={query}", r'href="(https://wayka\.pe/[^"]+)"'),
+    # Search-based (El Comercio)
+    ("search", "https://elcomercio.pe/buscar/?query={query}", r'href="(https://elcomercio\.pe/politica/[^"]+)"'),
+    # Tag-based (slug in URL path)
+    ("tag", "https://gestion.pe/noticias/{tag}/", r'href="(https://gestion\.pe/[^"]*noticia[^"]+)"'),
+    ("tag", "https://diariocorreo.pe/noticias/{tag}/", r'href="(https://diariocorreo\.pe/[^"]*noticia[^"]+)"'),
+    ("tag", "https://larepublica.pe/tag/{tag}", r'href="(https://larepublica\.pe/[^"]+/\d{4}/\d{2}/\d{2}/[^"]+)"'),
+    # Sitemap-based (XML, filtered by event keywords)
+    ("sitemap", "https://www.idl-reporteros.pe/wp-sitemap-posts-post-1.xml", r'<loc>(https://www\.idl-reporteros\.pe/[^<]+)</loc>'),
 ]
 
 # URL patterns that indicate non-article pages (category/tag pages, pagination, etc.)
@@ -135,23 +137,41 @@ def is_article_url(url: str) -> bool:
     return len(segments) >= 1
 
 
+def _slugify(text: str) -> str:
+    """Convert text to URL slug: lowercase, no accents, spaces → hyphens."""
+    slug = normalize_text(text)
+    slug = re.sub(r"[^a-z0-9\s-]", "", slug)
+    slug = re.sub(r"\s+", "-", slug.strip())
+    return slug
+
+
 def fetch_search_results(
     session: requests.Session,
     query: str,
+    site_type: str,
     url_template: str,
     article_regex: str,
+    event_keywords: list[str] | None = None,
 ) -> list[str]:
-    """Fetch search page and extract article URLs matching the given regex."""
-    import random
+    """Fetch search/tag/sitemap page and extract article URLs.
 
-    encoded_query = quote_plus(query)
-    search_url = url_template.format(query=encoded_query)
+    site_type: "search" (query param), "tag" (slug in path), "sitemap" (XML filtered)
+    """
+    if site_type == "search":
+        url = url_template.format(query=quote_plus(query))
+    elif site_type == "tag":
+        url = url_template.format(tag=_slugify(query))
+    elif site_type == "sitemap":
+        url = url_template
+    else:
+        return []
 
-    # Rotate User-Agent per request
     session.headers["User-Agent"] = random.choice(USER_AGENTS)
 
     try:
-        resp = session.get(search_url, timeout=15)
+        resp = session.get(url, timeout=15)
+        if resp.status_code >= 400 and site_type != "search":
+            return []  # tag pages 404 if tag doesn't exist
         resp.raise_for_status()
     except requests.RequestException:
         return []
@@ -159,11 +179,20 @@ def fetch_search_results(
     time.sleep(REQUEST_DELAY)
 
     raw_urls = re.findall(article_regex, resp.text)
-    # Deduplicate while preserving order
+
+    # For sitemaps: filter by event keywords in URL
+    if site_type == "sitemap" and event_keywords:
+        filtered = []
+        for u in raw_urls:
+            u_norm = normalize_text(u)
+            if any(kw in u_norm for kw in event_keywords):
+                filtered.append(u)
+        raw_urls = filtered[:20]  # cap sitemap results
+
+    # Deduplicate
     seen: set[str] = set()
     unique: list[str] = []
     for url in raw_urls:
-        # Strip trailing query strings / fragments
         clean = re.sub(r"[?#].*$", "", url.rstrip("/"))
         if clean not in seen and is_article_url(clean):
             seen.add(clean)
@@ -243,9 +272,16 @@ def search_event_articles(
     """
     candidate_urls: list[str] = []
 
-    for url_template, article_regex in NEWSPAPER_SITES:
+    # Build keyword list for sitemap filtering
+    title_words = [w.lower() for w in re.split(r"\W+", event.get("title", "")) if len(w) > 3]
+    event_keywords = [normalize_text(w) for w in title_words]
+
+    for site_type, url_template, article_regex in NEWSPAPER_SITES:
         for query in event.get("search_queries", []):
-            urls = fetch_search_results(session, query, url_template, article_regex)
+            urls = fetch_search_results(
+                session, query, site_type, url_template, article_regex,
+                event_keywords=event_keywords,
+            )
             candidate_urls.extend(urls)
 
     # Deduplicate candidate URLs
