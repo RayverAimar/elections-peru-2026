@@ -176,9 +176,7 @@ def download_all() -> dict:
             downloaded = downloaded or ok
 
         if plan["summary_plan"]:
-            ok = download_pdf(
-                plan["summary_plan"], dest_dir / f"{candidate_safe}_plan_resumen.pdf"
-            )
+            ok = download_pdf(plan["summary_plan"], dest_dir / f"{candidate_safe}_plan_resumen.pdf")
             downloaded = downloaded or ok
 
         if downloaded:

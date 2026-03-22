@@ -209,14 +209,20 @@ export default function QuizResults() {
   }
 
   const topMatch = data.top_candidates[0];
-  const topicLabels = Object.keys(data.user_profile).map((k) => {
-    const topic = k.split('.')[0];
-    return TOPICS[topic]?.name || k;
+
+  // Radar chart: use agreement_by_topic from top match (0-100% per topic)
+  const radarTopics = topMatch ? Object.keys(topMatch.agreement_by_topic) : [];
+  const topicLabels = radarTopics.map((t) => TOPICS[t]?.name || t);
+  const topMatchValues = radarTopics.map((t) => topMatch?.agreement_by_topic[t] ?? 0);
+  // For user profile, normalize raw axis values to 0-100 scale
+  const userValues = radarTopics.map((topic) => {
+    // Find user_profile keys that belong to this topic
+    const topicKeys = Object.keys(data.user_profile).filter((k) => k.startsWith(topic + '.'));
+    if (topicKeys.length === 0) return 50; // neutral if no data
+    const avg = topicKeys.reduce((sum, k) => sum + data.user_profile[k], 0) / topicKeys.length;
+    // Map from [-2, +2] range to [0, 100]
+    return Math.max(0, Math.min(100, ((avg + 2) / 4) * 100));
   });
-  const userValues = Object.values(data.user_profile);
-  const topMatchValues = topMatch
-    ? Object.keys(data.user_profile).map((k) => topMatch.agreement_by_topic[k.split('.')[0]] ?? 50)
-    : [];
 
   return (
     <div class="mx-auto max-w-4xl">

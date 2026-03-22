@@ -47,9 +47,7 @@ async def list_events(
     where = "WHERE " + " AND ".join(conditions) if conditions else ""
 
     async with request.app.state.db_pool.connection() as conn, conn.cursor() as cur:
-        await cur.execute(
-            f"SELECT COUNT(*) FROM political_events pe {where}", params
-        )
+        await cur.execute(f"SELECT COUNT(*) FROM political_events pe {where}", params)
         total = (await cur.fetchone())[0]
 
         await cur.execute(

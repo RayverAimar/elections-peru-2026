@@ -27,7 +27,7 @@ export default function RadarChart({ labels, userValues, matchValues, matchLabel
           datasets: [
             {
               label: 'Tu perfil',
-              data: userValues.map((v) => Math.max(0, Math.min(100, ((v + 1) / 2) * 100))),
+              data: userValues,
               borderColor: '#60A5FA',
               backgroundColor: 'rgba(96, 165, 250, 0.1)',
               borderWidth: 2,

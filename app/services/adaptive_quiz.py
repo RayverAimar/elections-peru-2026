@@ -40,11 +40,11 @@ SIGMA = 1.0
 CONFIDENCE_MAP = {"high": 1.0, "medium": 0.75, "low": 0.25}
 
 # Session and quiz parameters
-MIN_QUESTIONS = 12       # Minimum before allowing early stop
-MAX_QUESTIONS = 20       # Hard cap
-CONFIDENCE_RATIO = 3.0   # Stop early if top party is 3x the second
-SESSION_TTL = 3600       # 1 hour session expiry
-MIN_RELIABLE_SCORES = 30 # Exclude parties with fewer reliable scores
+MIN_QUESTIONS = 12  # Minimum before allowing early stop
+MAX_QUESTIONS = 20  # Hard cap
+CONFIDENCE_RATIO = 3.0  # Stop early if top party is 3x the second
+SESSION_TTL = 3600  # 1 hour session expiry
+MIN_RELIABLE_SCORES = 30  # Exclude parties with fewer reliable scores
 CONTENDER_THRESHOLD = 0.05  # Posterior probability to be a "contender"
 CONTENDER_MIN_QUESTIONS = 6  # Questions before activating refinement
 TOPIC_DIVERSITY_PENALTY = 0.7  # Penalize repeating the same topic
@@ -55,7 +55,7 @@ class QuizSession:
     """State for an in-progress quiz session."""
 
     id: str
-    posterior: np.ndarray          # P(party) for each party, sums to 1
+    posterior: np.ndarray  # P(party) for each party, sums to 1
     answered: list[tuple[str, int]] = field(default_factory=list)  # (question_id, value)
     topic_prefs: list[str] | None = None
     created_at: float = field(default_factory=time.time)
@@ -69,7 +69,7 @@ class AdaptiveQuizEngine:
         self._question_index: dict[str, int] = {}  # question_id → index
         self._party_keys: list[str] = []
         self._party_info: dict[str, dict] = {}
-        self._score_matrix: np.ndarray | None = None   # (n_questions, n_parties)
+        self._score_matrix: np.ndarray | None = None  # (n_questions, n_parties)
         self._confidence_matrix: np.ndarray | None = None
         self._sessions: dict[str, QuizSession] = {}
         self._excluded_parties: set[str] = set()
@@ -151,9 +151,7 @@ class AdaptiveQuizEngine:
 
     # ── Session Management ────────────────────────────────────────
 
-    def start_session(
-        self, topic_prefs: list[str] | None = None
-    ) -> tuple[str, dict, dict]:
+    def start_session(self, topic_prefs: list[str] | None = None) -> tuple[str, dict, dict]:
         """Start a new quiz session with uniform prior."""
         self._cleanup_expired_sessions()
 
@@ -173,10 +171,7 @@ class AdaptiveQuizEngine:
 
     def _cleanup_expired_sessions(self):
         now = time.time()
-        expired = [
-            sid for sid, s in self._sessions.items()
-            if now - s.created_at > SESSION_TTL
-        ]
+        expired = [sid for sid, s in self._sessions.items() if now - s.created_at > SESSION_TTL]
         for sid in expired:
             del self._sessions[sid]
 
@@ -241,10 +236,7 @@ class AdaptiveQuizEngine:
         - Late (≥ 6 answers): boost questions that differentiate top contenders
         """
         answered_ids = {qid for qid, _ in session.answered}
-        unanswered = [
-            (i, q) for i, q in enumerate(self._questions)
-            if q["id"] not in answered_ids
-        ]
+        unanswered = [(i, q) for i, q in enumerate(self._questions) if q["id"] not in answered_ids]
         if not unanswered:
             return None
 
@@ -257,9 +249,7 @@ class AdaptiveQuizEngine:
         best_question = None
 
         for qi, q in unanswered:
-            ig = self._compute_information_gain(
-                session, qi, h_current, possible_answers
-            )
+            ig = self._compute_information_gain(session, qi, h_current, possible_answers)
 
             # Modifiers
             if q.get("topic", "") in recent_topics:
@@ -302,9 +292,7 @@ class AdaptiveQuizEngine:
             likelihoods.append(lk)
 
         # P(answer=a) = weighted sum under current posterior
-        p_answers = np.array(
-            [np.dot(session.posterior, lk) for lk in likelihoods]
-        )
+        p_answers = np.array([np.dot(session.posterior, lk) for lk in likelihoods])
         p_total = p_answers.sum()
         if p_total <= 0:
             return 0.0
@@ -403,14 +391,16 @@ class AdaptiveQuizEngine:
             agreement = self._compute_topic_agreement(session, pi)
             info = self._party_info.get(pk, {"party": pk, "candidate": "", "photo_url": None})
 
-            party_results.append({
-                "party": info.get("party", pk),
-                "candidate": info.get("candidate", ""),
-                "photo_url": info.get("photo_url"),
-                "score": score,
-                "agreement_by_topic": agreement,
-                "evidence": evidence[:5],
-            })
+            party_results.append(
+                {
+                    "party": info.get("party", pk),
+                    "candidate": info.get("candidate", ""),
+                    "photo_url": info.get("photo_url"),
+                    "score": score,
+                    "agreement_by_topic": agreement,
+                    "evidence": evidence[:5],
+                }
+            )
 
         party_results.sort(key=lambda x: x["score"], reverse=True)
 
@@ -431,19 +421,19 @@ class AdaptiveQuizEngine:
             ps = q.get("party_scores", {}).get(party_key, {})
             party_score = ps.get("score", 0)
             if abs(user_val) >= 1 or abs(party_score) >= 1:
-                evidence.append({
-                    "question": q.get("text", ""),
-                    "user_answer": user_val,
-                    "party_score": party_score,
-                    "explanation": ps.get("evidence", ""),
-                })
+                evidence.append(
+                    {
+                        "question": q.get("text", ""),
+                        "user_answer": user_val,
+                        "party_score": party_score,
+                        "explanation": ps.get("evidence", ""),
+                    }
+                )
         # Best agreements first
         evidence.sort(key=lambda e: abs(e["user_answer"] - e["party_score"]))
         return evidence
 
-    def _compute_topic_agreement(
-        self, session: QuizSession, party_idx: int
-    ) -> dict[str, float]:
+    def _compute_topic_agreement(self, session: QuizSession, party_idx: int) -> dict[str, float]:
         """Per-topic agreement percentage between user and party."""
         topic_scores: dict[str, tuple[float, int]] = {}
 
@@ -459,11 +449,7 @@ class AdaptiveQuizEngine:
             s, c = topic_scores.get(topic, (0.0, 0))
             topic_scores[topic] = (s + agreement, c + 1)
 
-        return {
-            topic: round(s / c * 100, 1)
-            for topic, (s, c) in topic_scores.items()
-            if c > 0
-        }
+        return {topic: round(s / c * 100, 1) for topic, (s, c) in topic_scores.items() if c > 0}
 
     def _build_user_profile(self, session: QuizSession) -> dict[str, float]:
         """Summarize user's positions by topic.axis."""
@@ -482,6 +468,7 @@ class AdaptiveQuizEngine:
 
 
 # ── Utility ───────────────────────────────────────────────────────
+
 
 def _entropy(p: np.ndarray) -> float:
     """Shannon entropy in bits."""

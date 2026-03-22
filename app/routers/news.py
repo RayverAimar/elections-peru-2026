@@ -121,8 +121,12 @@ async def get_candidate_news_profile(request: Request, party: str):
         )
         controversial = [
             NewsItem(
-                id=r[0], title=r[1], url=r[2], source_name=r[3],
-                published_at=r[4], sentiment_label=r[5],
+                id=r[0],
+                title=r[1],
+                url=r[2],
+                source_name=r[3],
+                published_at=r[4],
+                sentiment_label=r[5],
                 adverse_categories=r[6] or [],
             )
             for r in await cur.fetchall()
@@ -143,8 +147,12 @@ async def get_candidate_news_profile(request: Request, party: str):
         )
         favorable = [
             NewsItem(
-                id=r[0], title=r[1], url=r[2], source_name=r[3],
-                published_at=r[4], sentiment_label=r[5],
+                id=r[0],
+                title=r[1],
+                url=r[2],
+                source_name=r[3],
+                published_at=r[4],
+                sentiment_label=r[5],
                 adverse_categories=r[6] or [],
             )
             for r in await cur.fetchall()
@@ -164,8 +172,12 @@ async def get_candidate_news_profile(request: Request, party: str):
         )
         recent = [
             NewsItem(
-                id=r[0], title=r[1], url=r[2], source_name=r[3],
-                published_at=r[4], sentiment_label=r[5],
+                id=r[0],
+                title=r[1],
+                url=r[2],
+                source_name=r[3],
+                published_at=r[4],
+                sentiment_label=r[5],
                 adverse_categories=r[6] or [],
             )
             for r in await cur.fetchall()

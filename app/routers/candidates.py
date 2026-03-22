@@ -20,8 +20,12 @@ async def list_parties(request: Request):
 async def search_candidates(
     request: Request,
     q: str | None = Query(None, description="Search by name"),
-    election_type: str | None = Query(None, description="presidential, senator, representative, andean_parliament"),
-    constituency: str | None = Query(None, description="Filter by constituency (for representatives)"),
+    election_type: str | None = Query(
+        None, description="presidential, senator, representative, andean_parliament"
+    ),
+    constituency: str | None = Query(
+        None, description="Filter by constituency (for representatives)"
+    ),
     party: str | None = Query(None, description="Filter by party name"),
     limit: int = Query(20, ge=1, le=100),
     offset: int = Query(0, ge=0),
@@ -69,8 +73,13 @@ async def search_candidates(
 
     candidates = [
         CandidateListItem(
-            id=r[0], party_name=r[1], election_type=r[2],
-            constituency=r[3], full_name=r[4], position=r[5], photo_url=r[6],
+            id=r[0],
+            party_name=r[1],
+            election_type=r[2],
+            constituency=r[3],
+            full_name=r[4],
+            position=r[5],
+            photo_url=r[6],
         )
         for r in rows
     ]

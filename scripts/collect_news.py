@@ -440,7 +440,7 @@ def _parse_date(date_str: str) -> datetime | None:
         return None
     for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%S%z"):
         try:
-            return datetime.strptime(date_str[:19], fmt[:len(date_str[:19])])
+            return datetime.strptime(date_str[:19], fmt[: len(date_str[:19])])
         except ValueError:
             continue
     return None
@@ -454,6 +454,7 @@ class StaticCrawler:
 
     def __init__(self) -> None:
         import requests
+
         self.session = requests.Session()
         self._robots_cache: dict[str, urllib.robotparser.RobotFileParser] = {}
 
@@ -511,7 +512,7 @@ class StaticCrawler:
                 )
 
                 if resp.status_code == 429:
-                    wait = (2 ** attempt) * 5 + random.uniform(0, 2)
+                    wait = (2**attempt) * 5 + random.uniform(0, 2)
                     log.warning("429 on %s — backing off %.1fs", url, wait)
                     time.sleep(wait)
                     continue
@@ -522,17 +523,17 @@ class StaticCrawler:
                 if resp.status_code >= 400:
                     log.debug("HTTP %d for %s", resp.status_code, url)
                     if attempt < max_retries - 1:
-                        time.sleep(2 ** attempt)
+                        time.sleep(2**attempt)
                     continue
 
                 return resp.text
 
             except requests.exceptions.Timeout:
                 log.debug("Timeout fetching %s (attempt %d)", url, attempt + 1)
-                time.sleep(2 ** attempt)
+                time.sleep(2**attempt)
             except requests.exceptions.ConnectionError as e:
                 log.debug("Connection error for %s: %s", url, e)
-                time.sleep(2 ** attempt)
+                time.sleep(2**attempt)
             except Exception as e:
                 log.debug("Unexpected error fetching %s: %s", url, e)
                 break
@@ -684,17 +685,19 @@ def _fetch_rss_feed(feed_name: str, feed_url: str) -> list[dict]:
         if not url:
             continue
 
-        articles.append({
-            "url": url,
-            "title": entry.get("title", ""),
-            "description": entry.get("summary", ""),
-            "author": "",
-            "image_url": "",
-            "published_at": published,
-            "source_name": feed_name,
-            "source_feed": feed_name.lower().replace(" ", "_"),
-            "stage": "rss",
-        })
+        articles.append(
+            {
+                "url": url,
+                "title": entry.get("title", ""),
+                "description": entry.get("summary", ""),
+                "author": "",
+                "image_url": "",
+                "published_at": published,
+                "source_name": feed_name,
+                "source_feed": feed_name.lower().replace(" ", "_"),
+                "stage": "rss",
+            }
+        )
 
     return articles
 
@@ -770,14 +773,16 @@ def _crawl_candidate_static(
     # Seed queue with one search task per site
     for site_key, config in sites.items():
         search_url = get_search_url(config, name)
-        queue.append(CrawlTask(
-            url=search_url,
-            depth=0,
-            task_type="search",
-            site_key=site_key,
-            candidate_name=name,
-            party_name=party,
-        ))
+        queue.append(
+            CrawlTask(
+                url=search_url,
+                depth=0,
+                task_type="search",
+                site_key=site_key,
+                candidate_name=name,
+                party_name=party,
+            )
+        )
 
     while queue and article_count < max_articles:
         task = queue.popleft()
@@ -791,7 +796,7 @@ def _crawl_candidate_static(
 
         config = sites[task.site_key]
         effective_max_pages = max_pages if max_pages is not None else config.max_pages
-        effective_delay = (base_delay if base_delay is not None else config.rate_limit)
+        effective_delay = base_delay if base_delay is not None else config.rate_limit
         jitter = random.uniform(-0.5, 0.5)
         delay = max(effective_delay + jitter, 0.1)
 
@@ -803,7 +808,10 @@ def _crawl_candidate_static(
                     article_urls = filter_sitemap_urls(all_urls, name, party)
                     log.debug(
                         "[%s] Sitemap: %d total, %d filtered for %s",
-                        config.name, len(all_urls), len(article_urls), name,
+                        config.name,
+                        len(all_urls),
+                        len(article_urls),
+                        name,
                     )
                 else:
                     article_urls = crawler.extract_article_urls(
@@ -811,7 +819,9 @@ def _crawl_candidate_static(
                     )
                     log.debug(
                         "[%s] Found %d article URLs for %s",
-                        config.name, len(article_urls), name,
+                        config.name,
+                        len(article_urls),
+                        name,
                     )
 
                 for article_url in article_urls:
@@ -819,27 +829,31 @@ def _crawl_candidate_static(
                     if url_hash in known_hashes:
                         continue
                     if article_url not in local_visited:
-                        queue.append(CrawlTask(
-                            url=article_url,
-                            depth=task.depth + 1,
-                            task_type="article",
-                            site_key=task.site_key,
-                            candidate_name=name,
-                            party_name=party,
-                        ))
+                        queue.append(
+                            CrawlTask(
+                                url=article_url,
+                                depth=task.depth + 1,
+                                task_type="article",
+                                site_key=task.site_key,
+                                candidate_name=name,
+                                party_name=party,
+                            )
+                        )
 
                 # Enqueue pagination pages (depth-0 only)
                 if task.depth == 0 and config.search_type != "sitemap":
                     for pag_url in get_pagination_urls(config, name, effective_max_pages):
                         if pag_url not in local_visited:
-                            queue.append(CrawlTask(
-                                url=pag_url,
-                                depth=1,
-                                task_type="search",
-                                site_key=task.site_key,
-                                candidate_name=name,
-                                party_name=party,
-                            ))
+                            queue.append(
+                                CrawlTask(
+                                    url=pag_url,
+                                    depth=1,
+                                    task_type="search",
+                                    site_key=task.site_key,
+                                    candidate_name=name,
+                                    party_name=party,
+                                )
+                            )
             time.sleep(delay)
 
         elif task.task_type == "article":
@@ -852,21 +866,23 @@ def _crawl_candidate_static(
                 # Parse date from extracted metadata
                 published_at = _parse_date(article_data.get("date", ""))
 
-                collected.append({
-                    "url": task.url,
-                    "url_hash": url_hash,
-                    "title": article_data.get("title") or _extract_title_from_url(task.url),
-                    "description": article_data.get("description", ""),
-                    "content": article_data["content"],
-                    "author": article_data.get("author", ""),
-                    "image_url": article_data.get("image", ""),
-                    "published_at": published_at,
-                    "source_name": config.name,
-                    "source_feed": f"scraper_{task.site_key}",
-                    "candidate_name": name,
-                    "party_name": party,
-                    "stage": "search",
-                })
+                collected.append(
+                    {
+                        "url": task.url,
+                        "url_hash": url_hash,
+                        "title": article_data.get("title") or _extract_title_from_url(task.url),
+                        "description": article_data.get("description", ""),
+                        "content": article_data["content"],
+                        "author": article_data.get("author", ""),
+                        "image_url": article_data.get("image", ""),
+                        "published_at": published_at,
+                        "source_name": config.name,
+                        "source_feed": f"scraper_{task.site_key}",
+                        "candidate_name": name,
+                        "party_name": party,
+                        "stage": "search",
+                    }
+                )
                 article_count += 1
                 log.debug("[%s] Collected article %d for %s", config.name, article_count, name)
             else:
@@ -901,7 +917,9 @@ def run_stage2_search(
     log.info("=" * 60)
     log.info(
         "STAGE 2: Search Scraping (%d candidates, %d static sites, %d workers)",
-        len(candidates), len(STATIC_SITES), workers,
+        len(candidates),
+        len(STATIC_SITES),
+        workers,
     )
     log.info("=" * 60)
 
@@ -927,16 +945,20 @@ def run_stage2_search(
             articles = worker(candidate)
             all_articles.extend(articles)
             for a in articles:
-                append_jsonl({
-                    "url": a["url"],
-                    "title": a.get("title", ""),
-                    "source": a.get("source_name", ""),
-                    "candidate": candidate["name"],
-                    "party": candidate["party_name"],
-                    "stage": "search",
-                })
+                append_jsonl(
+                    {
+                        "url": a["url"],
+                        "title": a.get("title", ""),
+                        "source": a.get("source_name", ""),
+                        "candidate": candidate["name"],
+                        "party": candidate["party_name"],
+                        "stage": "search",
+                    }
+                )
             completed_names.append(candidate["name"])
-            _save_checkpoint({"completed_candidates": completed_names, "articles_collected": len(all_articles)})
+            _save_checkpoint(
+                {"completed_candidates": completed_names, "articles_collected": len(all_articles)}
+            )
             log.info("Checkpoint saved. Total so far: %d articles", len(all_articles))
     else:
         log.info("Using %d parallel workers", workers)
@@ -953,22 +975,28 @@ def run_stage2_search(
                     with articles_lock:
                         all_articles.extend(articles)
                         for a in articles:
-                            append_jsonl({
-                                "url": a["url"],
-                                "title": a.get("title", ""),
-                                "source": a.get("source_name", ""),
-                                "candidate": candidate["name"],
-                                "party": candidate["party_name"],
-                                "stage": "search",
-                            })
+                            append_jsonl(
+                                {
+                                    "url": a["url"],
+                                    "title": a.get("title", ""),
+                                    "source": a.get("source_name", ""),
+                                    "candidate": candidate["name"],
+                                    "party": candidate["party_name"],
+                                    "stage": "search",
+                                }
+                            )
                         completed_names.append(candidate["name"])
-                        _save_checkpoint({
-                            "completed_candidates": completed_names,
-                            "articles_collected": len(all_articles),
-                        })
+                        _save_checkpoint(
+                            {
+                                "completed_candidates": completed_names,
+                                "articles_collected": len(all_articles),
+                            }
+                        )
                     log.info(
                         "Completed: %s — %d articles (total so far: %d)",
-                        candidate["name"], len(articles), len(all_articles),
+                        candidate["name"],
+                        len(articles),
+                        len(all_articles),
                     )
                 except Exception as e:
                     log.error("Worker failed for %s: %s", candidate["name"], e)
@@ -996,7 +1024,8 @@ def run_stage3_dynamic(
     log.info("=" * 60)
     log.info(
         "STAGE 3: Dynamic Sites — Playwright (%d candidates, %d dynamic sites)",
-        len(candidates), len(DYNAMIC_SITES),
+        len(candidates),
+        len(DYNAMIC_SITES),
     )
     log.info("=" * 60)
 
@@ -1052,7 +1081,8 @@ def run_stage3_dynamic(
                         record = {
                             "url": article_url,
                             "url_hash": url_hash,
-                            "title": article_data.get("title") or _extract_title_from_url(article_url),
+                            "title": article_data.get("title")
+                            or _extract_title_from_url(article_url),
                             "description": article_data.get("description", ""),
                             "content": article_data["content"],
                             "author": article_data.get("author", ""),
@@ -1066,14 +1096,16 @@ def run_stage3_dynamic(
                         }
                         all_articles.append(record)
                         article_count += 1
-                        append_jsonl({
-                            "url": article_url,
-                            "title": record["title"],
-                            "source": config.name,
-                            "candidate": name,
-                            "party": party,
-                            "stage": "dynamic",
-                        })
+                        append_jsonl(
+                            {
+                                "url": article_url,
+                                "title": record["title"],
+                                "source": config.name,
+                                "candidate": name,
+                                "party": party,
+                                "stage": "dynamic",
+                            }
+                        )
 
             log.info("[Stage 3] %s: collected %d articles", name, article_count)
     finally:
@@ -1100,7 +1132,9 @@ def resolve_rss_content(
     # Filter out already-ingested hashes
     pending = [a for a in articles if a.get("url_hash") not in known_hashes]
     if not pending:
-        log.info("[RSS resolve] All %d articles already in DB, skipping content fetch", len(articles))
+        log.info(
+            "[RSS resolve] All %d articles already in DB, skipping content fetch", len(articles)
+        )
         return []
 
     log.info("[RSS resolve] Fetching content for %d new RSS articles...", len(pending))
@@ -1152,7 +1186,12 @@ def resolve_rss_content(
             except Exception as e:
                 log.debug("[RSS resolve] Future error: %s", e)
             if done % 25 == 0:
-                log.info("[RSS resolve] %d/%d fetched, %d with content", done, len(pending), len(resolved))
+                log.info(
+                    "[RSS resolve] %d/%d fetched, %d with content",
+                    done,
+                    len(pending),
+                    len(resolved),
+                )
 
     log.info("[RSS resolve] Done: %d/%d articles with content", len(resolved), len(pending))
     return resolved
@@ -1344,21 +1383,27 @@ def run_phase2_store(
         stage_label = article.get("stage", "?")
         log.info(
             "  -> %s%s | %d chunks | %s | [%s]",
-            sentiment, cat_str, len(chunks), party_str, stage_label,
+            sentiment,
+            cat_str,
+            len(chunks),
+            party_str,
+            stage_label,
         )
 
         # Thread-safe JSONL backup
-        append_jsonl({
-            "url": article["url"],
-            "title": title,
-            "source": article["source_name"],
-            "published_at": str(article.get("published_at", "")),
-            "sentiment": sentiment,
-            "categories": categories,
-            "mentions": [m["party_name"] for m in mentions],
-            "chunks": len(chunks),
-            "stage": stage_label,
-        })
+        append_jsonl(
+            {
+                "url": article["url"],
+                "title": title,
+                "source": article["source_name"],
+                "published_at": str(article.get("published_at", "")),
+                "sentiment": sentiment,
+                "categories": categories,
+                "mentions": [m["party_name"] for m in mentions],
+                "chunks": len(chunks),
+                "stage": stage_label,
+            }
+        )
 
     conn.close()
     return stats
@@ -1433,17 +1478,20 @@ def load_candidates(
                 continue
             seen_names.add(search_name)
 
-            candidates.append({
-                "name": search_name,
-                "full_name": full_name,
-                "party_name": party["party_name"],
-                "position": position_key,
-            })
+            candidates.append(
+                {
+                    "name": search_name,
+                    "full_name": full_name,
+                    "party_name": party["party_name"],
+                    "position": position_key,
+                }
+            )
 
     if filter_names:
         normalized_filters = [normalize_text(f.strip()) for f in filter_names]
         candidates = [
-            c for c in candidates
+            c
+            for c in candidates
             if any(nf in normalize_text(c["full_name"]) for nf in normalized_filters)
         ]
         log.info("Filtered to %d candidates matching: %s", len(candidates), filter_names)
@@ -1575,9 +1623,7 @@ def main() -> None:
     log.info("Workers: %d", num_workers)
 
     # ── Load candidates ──
-    filter_names = (
-        [n.strip() for n in args.candidates.split(",")] if args.candidates else None
-    )
+    filter_names = [n.strip() for n in args.candidates.split(",")] if args.candidates else None
     candidates = load_candidates(filter_names=filter_names, include_formula=args.formula)
 
     if not candidates:

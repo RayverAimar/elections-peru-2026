@@ -263,9 +263,7 @@ def search_event_articles(
         article = fetch_article(session, url)
         if article is None:
             continue
-        score = score_relevance(
-            article["content"], article["title"], event["title"]
-        )
+        score = score_relevance(article["content"], article["title"], event["title"])
         if score > 0:
             scored.append((score, article))
 
@@ -289,8 +287,14 @@ def extract_party_stances(articles: list[dict]) -> dict[str, dict]:
     stance_indicators = {
         "support": ["apoy", "respald", "promov", "defendi", "propus"],
         "against": [
-            "rechaz", "denunci", "critic", "opuso", "condeno", "protest",
-            "impugn", "cuestio",
+            "rechaz",
+            "denunci",
+            "critic",
+            "opuso",
+            "condeno",
+            "protest",
+            "impugn",
+            "cuestio",
         ],
         "neutral": ["señal", "indic", "manifest", "declar", "afirm", "dijo"],
     }
@@ -457,10 +461,7 @@ def chunk_event_content(content: str, source_url: str) -> list[dict]:
     max_body = MAX_CHUNK_CHARS - len(header)
 
     for para in paragraphs:
-        if (
-            len(current) + len(para) + 2 > max_body
-            and len(current) >= MIN_CHUNK_CHARS
-        ):
+        if len(current) + len(para) + 2 > max_body and len(current) >= MIN_CHUNK_CHARS:
             chunks.append(
                 {
                     "content": header + current,
@@ -627,7 +628,10 @@ def run_scrape_phase(seeds: list[dict]) -> list[dict]:
         print(f"[{i}/{len(seeds)}] Searching: {title_short}", end=" ", flush=True)
 
         articles = search_event_articles(session, seed, top_n=3)
-        print(f"→ {len(articles) + _count_candidates(seed)} candidates found → {len(articles)} kept", flush=True)
+        print(
+            f"→ {len(articles) + _count_candidates(seed)} candidates found → {len(articles)} kept",
+            flush=True,
+        )
 
         event = build_event_record(seed, articles)
         events.append(event)
