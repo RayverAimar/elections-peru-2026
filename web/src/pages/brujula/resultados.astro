@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import QuizResults from '../../islands/QuizResults.tsx';
+---
+
+<BaseLayout title="Tus Candidatos" description="El Chasqui encontró los candidatos más alineados con tus ideas.">
+  <div class="px-4 py-12">
+    <QuizResults client:load />
+  </div>
+</BaseLayout>

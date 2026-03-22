@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import QuizFlow from '../../islands/QuizFlow.tsx';
+---
+
+<BaseLayout title="Quiz Electoral" description="El Chasqui te hace preguntas adaptativas para encontrar qué candidatos piensan como tú.">
+  <div class="px-4 py-12">
+    <QuizFlow client:load />
+  </div>
+</BaseLayout>

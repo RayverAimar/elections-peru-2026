@@ -1,0 +1,59 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SEOHead from '../components/SEOHead.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <SEOHead title={title} description={description} />
+    <ClientRouter />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <!-- Fix #7: Skip-to-content -->
+    <a href="#main-content" class="skip-to-content">Saltar al contenido</a>
+    <Header />
+    <main id="main-content" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Scroll reveal observer -->
+    <script>
+      function initReveal() {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('revealed');
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+        );
+
+        document.querySelectorAll('[data-reveal], [data-reveal-stagger]').forEach((el) => {
+          observer.observe(el);
+        });
+      }
+
+      // Run on initial load and after view transitions
+      initReveal();
+      document.addEventListener('astro:after-swap', initReveal);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TopicAccordion from '../../islands/TopicAccordion.tsx';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export function getStaticPaths() {
+  const dataPath = path.resolve(process.cwd(), '../data/candidatos_2026.json');
+  const raw = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+
+  const posPath = path.resolve(process.cwd(), '../data/posiciones_candidatos.json');
+  const posData = JSON.parse(fs.readFileSync(posPath, 'utf-8'));
+
+  return raw.parties.map((p: any) => {
+    const partyKey = Object.keys(posData.parties || {}).find(
+      (k) => posData.parties[k].party_name === p.party_name,
+    );
+    const positions = partyKey ? posData.parties[partyKey].positions : null;
+
+    return {
+      params: { id: String(p.jne_id) },
+      props: { party: p, positions },
+    };
+  });
+}
+
+const { party, positions } = Astro.props;
+const formula = party.presidential_formula;
+const plan = party.government_plan;
+
+const members = [
+  { role: 'Presidente', data: formula.president },
+  { role: '1er Vicepresidente', data: formula.first_vice_president },
+  { role: '2do Vicepresidente', data: formula.second_vice_president },
+].filter((m) => m.data);
+---
+
+<BaseLayout
+  title={party.party_name}
+  description={`Posiciones y plan de gobierno de ${party.party_name} para las Elecciones 2026.`}
+>
+  <div class="mx-auto max-w-4xl px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav class="mb-8 text-sm text-surface-500">
+      <a href="/candidatos" class="transition hover:text-accent">Candidatos</a>
+      <span class="mx-2 text-surface-400">/</span>
+      <span class="text-surface-700">{party.party_name}</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+      {formula.president?.photo_url && (
+        <img
+          src={formula.president.photo_url}
+          alt={formula.president.full_name}
+          class="h-24 w-24 rounded-2xl border-2 border-surface-300/30 object-cover shadow-xl"
+        />
+      )}
+      <div>
+        <h1 class="text-2xl font-bold text-white sm:text-3xl">{party.party_name}</h1>
+        <p class="mt-1 text-lg text-surface-600">
+          {formula.president?.full_name || 'Sin candidato registrado'}
+        </p>
+      </div>
+    </div>
+
+    <!-- Fórmula Presidencial -->
+    <section class="mt-12">
+      <h2 class="text-lg font-bold text-white">Fórmula Presidencial</h2>
+      <div class="mt-4 grid gap-4 sm:grid-cols-3">
+        {members.map((m) => (
+          <div class="flex flex-col items-center rounded-2xl border border-surface-300/30 bg-surface-100/50 p-5 text-center">
+            <div class="h-16 w-16 overflow-hidden rounded-full bg-surface-200 ring-2 ring-surface-300/30">
+              {m.data.photo_url ? (
+                <img src={m.data.photo_url} alt={m.data.full_name} class="h-full w-full object-cover" loading="lazy" />
+              ) : (
+                <div class="flex h-full w-full items-center justify-center text-lg font-bold text-surface-500">
+                  {m.data.full_name.charAt(0)}
+                </div>
+              )}
+            </div>
+            <p class="mt-3 text-sm font-semibold text-white">{m.data.full_name}</p>
+            <p class="mt-0.5 text-xs text-surface-500">{m.role}</p>
+            {m.data.status && (
+              <span class:list={[
+                'mt-2 inline-block rounded-full px-2.5 py-0.5 text-xs font-medium',
+                m.data.status === 'INSCRITO'
+                  ? 'bg-surface-300/30 text-surface-600'
+                  : 'bg-yellow-500/10 text-yellow-400',
+              ]}>
+                {m.data.status}
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Plan de Gobierno -->
+    {plan && (plan.full_plan_url || plan.summary_plan_url) && (
+      <section class="mt-12">
+        <h2 class="text-lg font-bold text-white">Plan de Gobierno</h2>
+        <div class="mt-4 flex flex-wrap gap-3">
+          {plan.full_plan_url && (
+            <a
+              href={plan.full_plan_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-xl border border-surface-300/50 bg-surface-100 px-5 py-3 text-sm font-medium text-surface-700 transition-all hover:border-accent/30 hover:text-accent"
+            >
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Plan Completo
+            </a>
+          )}
+          {plan.summary_plan_url && (
+            <a
+              href={plan.summary_plan_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-xl border border-surface-300/50 bg-surface-100 px-5 py-3 text-sm font-medium text-surface-700 transition-all hover:border-accent/30 hover:text-accent"
+            >
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Resumen
+            </a>
+          )}
+        </div>
+      </section>
+    )}
+
+    <!-- Posiciones -->
+    <section class="mt-12">
+      <h2 class="text-lg font-bold text-white">Posiciones por Tema</h2>
+      <p class="mt-1 text-sm text-surface-500">Extraídas del plan de gobierno mediante análisis de IA.</p>
+      <div class="mt-4">
+        {positions ? (
+          <TopicAccordion client:visible positions={positions} />
+        ) : (
+          <div class="rounded-2xl border border-surface-300/30 bg-surface-100/30 p-8 text-center text-surface-500">
+            No hay posiciones disponibles para este partido.
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- Back -->
+    <div class="mt-14">
+      <a href="/candidatos" class="inline-flex items-center gap-2 text-sm font-medium text-surface-600 transition hover:text-accent">
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        Volver a candidatos
+      </a>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,180 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { daysUntilElection } from '../lib/utils';
+import { TOPICS } from '../lib/constants';
+
+const days = daysUntilElection();
+const topicEntries = Object.entries(TOPICS);
+---
+
+<BaseLayout>
+  <!-- Hero -->
+  <section class="relative overflow-hidden px-4 pb-20 pt-16 sm:pb-28 sm:pt-24">
+    <div class="pointer-events-none absolute inset-0">
+      <div class="absolute -left-40 -top-40 h-[500px] w-[500px] rounded-full bg-accent/8 blur-[140px]"></div>
+      <div class="absolute -bottom-20 -right-40 h-[400px] w-[400px] rounded-full bg-accent/5 blur-[120px]"></div>
+    </div>
+
+    <div class="relative mx-auto max-w-4xl text-center">
+      <div class="inline-flex items-center gap-2.5 rounded-full border border-surface-300/40 bg-surface-100/60 px-5 py-2 text-sm backdrop-blur-md">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-accent"></span>
+        </span>
+        <span class="text-surface-700">Elecciones Generales 2026</span>
+      </div>
+
+      <h1 class="mt-8 font-black leading-[1.1] tracking-tight text-white">
+        Tu mensajero<br />
+        <span class="gradient-text">electoral</span>
+      </h1>
+
+      <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-surface-600">
+        Chasqui te trae la información que necesitas para votar.
+        Quiz adaptativo, chat inteligente y análisis de
+        <span class="font-semibold text-surface-700">36 partidos políticos</span>.
+      </p>
+
+      <div class="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <a
+          href="/brujula"
+          class="hover-scale group inline-flex items-center gap-2.5 rounded-2xl bg-accent px-9 py-4 text-lg font-bold text-white shadow-xl shadow-accent/25"
+        >
+          Descubre tu candidato
+          <svg class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/chat"
+          class="hover-scale inline-flex items-center rounded-2xl border border-surface-300/50 px-9 py-4 text-lg font-semibold text-surface-800 backdrop-blur-sm transition-all hover:border-surface-400 hover:bg-surface-100/50"
+        >
+          Pregúntale al Chasqui
+        </a>
+      </div>
+
+      {days > 0 && (
+        <div class="mt-12">
+          <div class="inline-flex items-baseline gap-3 rounded-2xl border border-surface-300/20 bg-surface-100/30 px-7 py-4 backdrop-blur-sm">
+            <span class="text-5xl font-black tabular-nums text-white">{days}</span>
+            <span class="text-surface-500">días para las elecciones</span>
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section class="border-t border-surface-300/20 px-4 py-16 sm:py-20">
+    <div class="mx-auto max-w-4xl">
+      <div class="text-center">
+        <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent">El Chasqui te guía</p>
+        <h2 class="mt-3 font-bold text-white">¿Cómo funciona?</h2>
+        <p class="mt-3 text-surface-600">Tres formas de informarte antes de votar.</p>
+      </div>
+
+      <div class="mt-12 grid gap-6 sm:grid-cols-3">
+        {[
+          { title: 'Quiz Adaptativo', desc: 'Responde preguntas y el Chasqui encuentra qué candidatos piensan como tú. Se adapta en tiempo real.', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
+          { title: 'Pregúntale', desc: 'Hazle cualquier pregunta sobre los candidatos. Responde con datos reales de los planes de gobierno.', icon: 'M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z' },
+          { title: 'Explora', desc: 'Revisa las posiciones de los 36 partidos en 13 temas clave, extraídas de sus planes oficiales.', icon: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z' },
+        ].map((step) => (
+          <div class="hover-lift group rounded-2xl border border-surface-300/20 bg-surface-100/30 p-6 transition-colors hover:border-accent/20 hover:bg-surface-100/60">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 transition-colors group-hover:bg-accent/20">
+              <svg class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d={step.icon} />
+              </svg>
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-white">{step.title}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-surface-600">{step.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Temas -->
+  <section class="border-t border-surface-300/20 px-4 py-16 sm:py-20">
+    <div class="mx-auto max-w-5xl">
+      <div class="text-center">
+        <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent">Cobertura</p>
+        <h2 class="mt-3 font-bold text-white">13 temas que importan</h2>
+        <p class="mx-auto mt-3 max-w-2xl text-surface-600">
+          El Chasqui analizó los planes de gobierno en estos temas clave para el Perú.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {topicEntries.map(([key, topic]) => (
+          <div class="rounded-xl border border-surface-300/15 bg-surface-100/20 p-5 transition-colors hover:border-surface-300/40 hover:bg-surface-100/50">
+            <h3 class="font-semibold text-white">{topic.name}</h3>
+            <p class="mt-1.5 text-sm leading-relaxed text-surface-600">{topic.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Eventos políticos -->
+  <section class="border-t border-surface-300/20 px-4 py-16 sm:py-20">
+    <div class="mx-auto max-w-4xl">
+      <div class="text-center">
+        <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent">Contexto</p>
+        <h2 class="mt-3 font-bold text-white">Lo que todo peruano debe saber</h2>
+        <p class="mx-auto mt-3 max-w-2xl text-surface-600">
+          30 eventos políticos clave que revelan el verdadero historial de los partidos. Con fuentes verificables.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {[
+          { category: 'Democracia', count: '6 eventos', example: 'Vacancia de Vizcarra, autogolpe de Castillo', color: 'text-blue-400 bg-blue-500/10' },
+          { category: 'Corrupción', count: '9 eventos', example: 'Rolexgate, Ley Soto, Panama Papers', color: 'text-red-400 bg-red-500/10' },
+          { category: 'Derechos Humanos', count: '3 eventos', example: 'Masacre de Juliaca, 49 civiles muertos', color: 'text-purple-400 bg-purple-500/10' },
+          { category: 'Justicia', count: '5 eventos', example: 'Caso Cócteles anulado, Toledo condenado', color: 'text-cyan-400 bg-cyan-500/10' },
+          { category: 'Institucional', count: '5 eventos', example: '8 leyes pro-crimen, TC sin transparencia', color: 'text-orange-400 bg-orange-500/10' },
+          { category: 'Economía', count: '2 eventos', example: 'Crisis de seguridad, colapso COVID', color: 'text-yellow-400 bg-yellow-500/10' },
+        ].map((cat) => (
+          <div class="rounded-xl border border-surface-300/15 bg-surface-100/20 p-5 transition-colors hover:border-surface-300/40 hover:bg-surface-100/50">
+            <span class:list={['inline-block rounded-full px-2.5 py-0.5 text-xs font-medium', cat.color]}>
+              {cat.category}
+            </span>
+            <p class="mt-2 text-sm font-semibold text-surface-700">{cat.count}</p>
+            <p class="mt-1 text-sm leading-relaxed text-surface-600">{cat.example}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="/eventos" class="hover-scale inline-flex items-center gap-2 rounded-2xl border border-surface-300/50 px-7 py-3.5 font-semibold text-surface-800 transition-all hover:border-accent/30 hover:text-accent">
+          Ver todos los eventos
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="border-t border-surface-300/20 px-4 py-16 sm:py-20">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent">Elecciones 2026</p>
+      <h2 class="mt-3 font-bold text-white">Vota informado</h2>
+      <p class="mt-3 text-surface-600">
+        El Chasqui no te dice por quién votar. Te da la información para que tú decidas.
+      </p>
+      <div class="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <a href="/brujula" class="hover-scale inline-flex items-center gap-2 rounded-2xl bg-accent px-8 py-4 text-lg font-bold text-white shadow-xl shadow-accent/25">
+          Iniciar Quiz
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a href="/candidatos" class="hover-scale inline-flex items-center rounded-2xl border border-surface-300/50 px-8 py-4 font-semibold text-surface-800 transition-all hover:border-surface-400 hover:bg-surface-100/50">
+          Ver 36 partidos
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

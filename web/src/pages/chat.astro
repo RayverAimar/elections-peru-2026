@@ -1,0 +1,25 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import SEOHead from '../components/SEOHead.astro';
+import ChatInterface from '../islands/ChatInterface.tsx';
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <SEOHead title="Pregúntale al Chasqui" description="Hazle cualquier pregunta sobre los candidatos. Responde con datos reales de los planes de gobierno." />
+    <ClientRouter />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="flex h-[100dvh] flex-col">
+    <a href="#main-content" class="skip-to-content">Saltar al contenido</a>
+    <Header />
+    <main id="main-content" class="flex flex-1 flex-col overflow-hidden">
+      <ChatInterface client:load />
+    </main>
+  </body>
+</html>
