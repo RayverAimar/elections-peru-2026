@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+
+# Environment
+.env
+
+# OS
+.DS_Store
+
+# Ruff
+.ruff_cache/
+
+# Frontend
+node_modules/
+web/dist/
+web/.astro/
+.astro/
+
+# Playwright MCP
+.playwright-mcp/
+
+# MCP config (local)
+.mcp.json
+
+# Data (regenerable)
+data/extraction_progress.json
+data/extraction/
+data/noticias_backup.jsonl
+data/planes_de_gobierno/metadata.json
+data/scrape_backup.jsonl

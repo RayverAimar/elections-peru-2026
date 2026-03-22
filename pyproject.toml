@@ -1,0 +1,40 @@
+[project]
+name = "peru-elecciones-2026"
+version = "0.1.0"
+description = "Electoral matching platform for Peru's 2026 general elections"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.86.0",
+    "beautifulsoup4>=4.14.3",
+    "fastapi>=0.135.1",
+    "feedparser>=6.0",
+    "lxml>=6.0.2",
+    "numpy>=2.4.3",
+    "pdfplumber>=0.11.9",
+    "pgvector>=0.3",
+    "playwright>=1.58.0",
+    "psycopg-pool>=3.2",
+    "psycopg[binary]>=3.2",
+    "pydantic-settings>=2.13.1",
+    "pymupdf4llm>=1.27.2.2",
+    "python-dotenv>=1.2.2",
+    "requests>=2.28",
+    "sentence-transformers>=5.3.0",
+    "trafilatura>=2.0",
+    "uvicorn[standard]>=0.42.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2",
+    "ruff>=0.11",
+]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
