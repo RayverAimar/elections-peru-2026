@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 class StanceEvidence(BaseModel):
     quote: str
-    source_description: str
+    source_description: str | None = None
     source_url: str | None = None
 
 
