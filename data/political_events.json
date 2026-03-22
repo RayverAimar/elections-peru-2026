@@ -1,0 +1,852 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-22",
+  "total_events": 30,
+  "categories": [
+    "democracy",
+    "corruption",
+    "human_rights",
+    "economy",
+    "institutional",
+    "justice"
+  ],
+  "events": [
+    {
+      "id": "garcia_suicide_2019",
+      "title": "Suicidio de Alan García durante intento de arresto por caso Odebrecht",
+      "date": "2019-04-17",
+      "category": "corruption",
+      "severity": "high",
+      "description": "El 17 de abril de 2019, el expresidente Alan García se suicidó disparándose en la cabeza cuando agentes de la policía y la fiscalía se presentaron en su domicilio a ejecutar una orden de detención preliminar por 10 días, dictada por el juez Juan Carlos Sánchez Balbuena a solicitud del fiscal José Domingo Pérez, en el marco de las investigaciones por el caso Odebrecht. García era investigado por presuntos delitos de corrupción cometidos durante su segundo gobierno (2006-2011), vinculados a irregularidades en la construcción de la Línea 1 del Metro de Lima. Fue trasladado al hospital José Casimiro Ulloa donde falleció a las 10:05 horas tras sufrir tres paros cardiorrespiratorios. Previamente, en 2018, había intentado obtener asilo diplomático en las embajadas de Uruguay, Costa Rica y Colombia, siendo rechazado en todos los casos.",
+      "why_it_matters": "El caso García ilustra cómo la corrupción sistémica a nivel presidencial en el Perú ha quedado sin resolución judicial. Los votantes deben evaluar qué partidos tienen vínculos históricos con la corrupción y cuáles proponen mecanismos reales de fiscalización.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Muerte_y_funeral_de_Alan_Garc%C3%ADa",
+        "https://www.france24.com/es/20190417-peru-alan-garcia-perfil-suicidio-odebrecht",
+        "https://elcomercio.pe/185-aniversario/2019-l-alan-garcia-se-suicido-durante-su-detencion-l-bicentenario-noticia/"
+      ],
+      "party_stances": {
+        "PARTIDO APRISTA PERUANO": {
+          "stance": "involved",
+          "detail": "García fue dos veces presidente por el APRA. Su funeral se llevó a cabo en la Casa del Pueblo, local del Partido Aprista Peruano.",
+          "evidence": [
+            {
+              "quote": "Su funeral se llevó a cabo en el local del Partido Aprista Peruano conocido como la Casa del Pueblo y fue cremado el 19 de abril en el cementerio católico de Huachipa.",
+              "source_description": "Wikipedia - Muerte y funeral de Alan García",
+              "source_url": "https://es.wikipedia.org/wiki/Muerte_y_funeral_de_Alan_Garc%C3%ADa"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "covid_economic_collapse_2020",
+      "title": "Colapso económico por COVID-19: más de 221,000 muertes y crisis sanitaria",
+      "date": "2020-03-06",
+      "category": "economy",
+      "severity": "high",
+      "description": "El primer caso confirmado de COVID-19 en Perú se registró el 6 de marzo de 2020. El 15 de marzo, el presidente Martín Vizcarra declaró una cuarentena a nivel nacional, cerrando fronteras y restringiendo actividades no esenciales. Perú registró más de 4.5 millones de casos confirmados y más de 221,000 muertes, alcanzando la tasa de mortalidad por COVID-19 más alta del mundo con más de 6,400 muertes por cada millón de habitantes. La crisis reveló la fragilidad del sistema de salud y la precariedad de millones de peruanos en la economía informal, que representaban el 75% de la fuerza laboral y no podían cumplir con el aislamiento.",
+      "why_it_matters": "La pandemia expuso décadas de desinversión en salud pública y la precariedad laboral de millones de peruanos en la informalidad. Los votantes deben evaluar qué candidatos proponen reformas reales del sistema de salud y protección social.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19_en_Per%C3%BA",
+        "https://www.infobae.com/america/agencias/2021/02/15/pib-de-peru-cayo-1112-en-2020-el-peor-desempeno-en-tres-decadas/",
+        "https://es.wikipedia.org/wiki/Impacto_socioeconómico_de_la_pandemia_de_COVID-19"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "vacancia_vizcarra_2020",
+      "title": "Vacancia de Vizcarra, gobierno de Merino y muertes de Inti y Bryan",
+      "date": "2020-11-09",
+      "category": "democracy",
+      "severity": "high",
+      "description": "El 9 de noviembre de 2020, el Congreso vacó al presidente Martín Vizcarra por 'incapacidad moral permanente' con 105 votos a favor de un total de 130 congresistas. Manuel Merino asumió la presidencia, lo que desencadenó masivas protestas ciudadanas a nivel nacional. El 14 de noviembre, durante la segunda marcha nacional, la represión policial causó la muerte de Jack Bryan Pintado Sánchez (22 años, de Iquitos) e Inti Sotelo Camargo (24 años, de origen ayacuchano). Pintado recibió al menos once impactos de perdigones de plomo; Sotelo falleció por una herida de arma de fuego. Las muertes provocaron la renuncia en cadena de los ministros del gabinete Flores-Aráoz y, al día siguiente, la renuncia de Merino tras solo 5 días en el cargo. Francisco Sagasti asumió la presidencia y reconoció a ambas víctimas como héroes de la democracia.",
+      "why_it_matters": "Este episodio mostró cómo el Congreso puede usar la vacancia como herramienta política y cómo la represión de protestas pacíficas tiene consecuencias letales. Los votantes deben conocer qué congresistas votaron por la vacancia y la responsabilidad por las muertes.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Protestas_en_Per%C3%BA_de_2020",
+        "https://es.wikipedia.org/wiki/Muerte_de_Bryan_Pintado_e_Inti_Sotelo",
+        "https://www.hrw.org/es/news/2022/12/22/peru-debe-investigar-muertes-y-lesiones-durante-las-protestas"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "Votó a favor de la vacancia de Vizcarra, siendo parte de la mayoría que alcanzó los 105 votos.",
+          "evidence": [
+            {
+              "quote": "Con 105 votos a favor votos de un total de 130 congresistas, la declaratoria de permanente incapacidad moral fue aprobada.",
+              "source_description": "Wikipedia - Protestas en Perú de 2020",
+              "source_url": "https://es.wikipedia.org/wiki/Protestas_en_Per%C3%BA_de_2020"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "castillo_elected_2021",
+      "title": "Pedro Castillo gana la presidencia; Fujimori denuncia fraude sin pruebas",
+      "date": "2021-06-06",
+      "category": "democracy",
+      "severity": "high",
+      "description": "En la segunda vuelta electoral del 6 de junio de 2021, Pedro Castillo (Perú Libre) venció a Keiko Fujimori (Fuerza Popular) por un margen de poco más de 44,000 votos. Fujimori y Fuerza Popular denunciaron un supuesto 'fraude sistemático' y promovieron acusaciones sin fundamento de una 'conspiración comunista internacional'. Formularon 945 pedidos de nulidad de actas, todos rechazados por los Jurados Electorales Especiales y el JNE. Las acusaciones fueron desestimadas por la ONPE, el JNE, la OEA, la Unión Europea, la Asociación Civil Transparencia e IDEA Internacional. El Departamento de Estado de EE.UU. calificó al sistema electoral peruano como 'un modelo de democracia en la región'. Fujimori reconoció su derrota el 19 de julio. Castillo fue proclamado presidente electo ese mismo día y asumió el cargo el 28 de julio de 2021, día del bicentenario de la independencia.",
+      "why_it_matters": "Las denuncias infundadas de fraude erosionan la confianza en las instituciones electorales y polarizan al país. Los votantes deben exigir que todos los candidatos respeten los resultados del proceso electoral.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Elecciones_generales_de_Per%C3%BA_de_2021",
+        "https://es.wikipedia.org/wiki/Crisis_postelectoral_de_Per%C3%BA_de_2021",
+        "https://es.wikipedia.org/wiki/Investidura_presidencial_de_Pedro_Castillo"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "involved",
+          "detail": "Castillo fue candidato de Perú Libre y obtuvo apoyo masivo en las áreas rurales, permitiéndole ganar la primera vuelta con ventaja considerable.",
+          "evidence": [
+            {
+              "quote": "Castillo (candidato del izquierdista Perú Libre) obtuvo un apoyo masivo en las áreas rurales, históricamente las más pobres y relegadas del país, que le permitió ganar la primera vuelta con una ventaja considerable.",
+              "source_description": "Wikipedia - Elecciones generales de Perú de 2021",
+              "source_url": "https://es.wikipedia.org/wiki/Elecciones_generales_de_Per%C3%BA_de_2021"
+            }
+          ]
+        },
+        "FUERZA POPULAR": {
+          "stance": "opposed",
+          "detail": "Keiko Fujimori y Fuerza Popular denunciaron fraude electoral sin presentar pruebas sustanciales. Formularon 945 pedidos de nulidad, todos rechazados por la justicia electoral.",
+          "evidence": [
+            {
+              "quote": "La campaña de Fujimori formuló 945 pedidos de nulidad tras el día de las elecciones, todos los cuales fueron rechazados por los Jurados Electorales Especiales, y el Jurado Nacional de Elecciones.",
+              "source_description": "Wikipedia - Crisis postelectoral de Perú de 2021",
+              "source_url": "https://es.wikipedia.org/wiki/Crisis_postelectoral_de_Per%C3%BA_de_2021"
+            },
+            {
+              "quote": "Las acusaciones fueron desestimadas por el organismo electoral peruano, y rechazadas por los observadores electorales de la Organización de Estados Americanos, la Unión Europea, la Asociación Civil Transparencia, IDEA Internacional, entre otras.",
+              "source_description": "Wikipedia - Crisis postelectoral de Perú de 2021",
+              "source_url": "https://es.wikipedia.org/wiki/Crisis_postelectoral_de_Per%C3%BA_de_2021"
+            }
+          ]
+        },
+        "RENOVACION POPULAR": {
+          "stance": "opposed",
+          "detail": "López Aliaga, quien quedó tercero en primera vuelta, también denunció un supuesto fraude electoral sin pruebas y solicitó revisión de actas, pedido rechazado por el JNE.",
+          "evidence": [
+            {
+              "quote": "El candidato Rafael López Aliaga (quien quedó en tercer lugar y fuera del balotaje) denunció que no iba a permitir que le 'roben' la elección, insinuando un supuesto 'fraude electoral' en su contra [...] El JNE rechazó su apelación para este proceso, debido al envío de la solicitud fuera del calendario electoral y la ausencia de pruebas.",
+              "source_description": "Wikipedia - Crisis postelectoral de Perú de 2021",
+              "source_url": "https://es.wikipedia.org/wiki/Crisis_postelectoral_de_Per%C3%BA_de_2021"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "castillo_chaotic_governance_2021",
+      "title": "Gobierno caótico de Castillo: 78 ministros en 495 días de gobierno",
+      "date": "2021-07-28",
+      "category": "institutional",
+      "severity": "high",
+      "description": "El gobierno de Pedro Castillo inició el 28 de julio de 2021 y se caracterizó por una inestabilidad ministerial sin precedentes: se formaron 78 ministros en 495 días de gobierno, con cinco gabinetes sucesivos. El primer gabinete, presidido por Guido Bellido (Perú Libre), fue controversial debido a que Bellido era investigado por presunta apología al terrorismo. Bellido fue reemplazado tras apenas 69 días por Mirtha Vásquez. Castillo nombró a su primer ministro en la Pampa de la Quinua, Ayacucho. La relación con Perú Libre se deterioró rápidamente: el 6 de octubre de 2021, tras la renuncia de Bellido, el partido comenzó a distanciarse del gobierno.",
+      "why_it_matters": "La incapacidad de formar un equipo de gobierno competente afecta directamente la calidad de los servicios públicos. Los votantes deben evaluar la capacidad de gestión de los candidatos, no solo sus promesas.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo",
+        "https://es.wikipedia.org/wiki/Anexo:Gabinete_de_Pedro_Castillo",
+        "https://www.vozdeamerica.com/a/peru-pedro-castillo-lleva-70-ministros-en-trece-meses-de-gobierno/6746933.html"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "involved",
+          "detail": "Perú Libre colocó cuadros del partido en el primer gabinete, como Guido Bellido en la PCM, pero la relación se deterioró rápidamente con el gobierno.",
+          "evidence": [
+            {
+              "quote": "El 29 de julio de 2021, en la Pampa de la Quinua (Ayacucho), el presidente Castillo tomó juramento a Guido Bellido Ugarte como presidente del Consejo de Ministros. [...] La designación de Bellido causó controversia debido a que es investigado por la Fiscalía por el presunto delito de apología al terrorismo.",
+              "source_description": "Wikipedia - Gobierno de Pedro Castillo",
+              "source_url": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"
+            },
+            {
+              "quote": "En total se formaron 78 ministros en 495 días de gobierno, lo que se muestra constantes cambios en sus cinco gabinetes.",
+              "source_description": "Wikipedia - Anexo: Gabinete de Pedro Castillo",
+              "source_url": "https://es.wikipedia.org/wiki/Anexo:Gabinete_de_Pedro_Castillo"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tc_magistrates_election_2022",
+      "title": "Congreso elige magistrados del Tribunal Constitucional en proceso cuestionado",
+      "date": "2022-05-10",
+      "category": "institutional",
+      "severity": "high",
+      "description": "En mayo de 2022, el Congreso eligió a seis nuevos magistrados del Tribunal Constitucional en un proceso criticado por su falta de transparencia. Según medios de comunicación, el TC fue utilizado para dar fuerza institucional a los fujimoristas en el Congreso, en el marco de la crisis política. Los magistrados nominados fueron cuestionados por los favores políticos que buscaban proporcionar a los legisladores de la coalición conservadora Bloque Democrático. Este TC posteriormente tomó decisiones clave como la restitución del indulto a Alberto Fujimori y la anulación del caso Cócteles contra Keiko Fujimori.",
+      "why_it_matters": "Un Tribunal Constitucional capturado por intereses políticos pierde su rol de garante de los derechos fundamentales. Las decisiones de este TC han tenido impacto directo en la impunidad de políticos investigados.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Tribunal_Constitucional_del_Per%C3%BA",
+        "https://www.infobae.com/america/peru/2022/05/10/congreso-elige-a-miembros-del-tribunal-constitucional-en-vivo-son-6-los-candidatos/",
+        "https://idehpucp.pucp.edu.pe/boletin-eventos/por-que-es-importante-prestar-atencion-a-la-eleccion-del-tribunal-constitucional-26490/"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "Según Wikipedia, el TC se ha utilizado desde mayo de 2022 para dar fuerza institucional a los fujimoristas en el Congreso. Los magistrados elegidos conformaban la coalición conservadora Bloque Democrático.",
+          "evidence": [
+            {
+              "quote": "Según los medios de comunicación, desde mayo de 2022 y en el marco de la crisis política de ese entonces, el Tribunal Constitucional se ha utilizado para dar fuerza institucional a los fujimoristas en el Congreso.",
+              "source_description": "Wikipedia - Tribunal Constitucional del Perú",
+              "source_url": "https://es.wikipedia.org/wiki/Tribunal_Constitucional_del_Per%C3%BA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "castillo_coup_attempt_2022",
+      "title": "Autogolpe de Castillo: intenta disolver el Congreso y es arrestado",
+      "date": "2022-12-07",
+      "category": "democracy",
+      "severity": "high",
+      "description": "El 7 de diciembre de 2022, horas antes de una tercera moción de vacancia, el presidente Pedro Castillo anunció por mensaje televisado la disolución del Congreso, la intervención del Poder Judicial, del Ministerio Público, de la Junta Nacional de Justicia y del Tribunal Constitucional, la convocatoria a un nuevo Congreso constituyente y un toque de queda nacional. Ordenó la detención de la fiscal de la Nación Patricia Benavides. El acto fue reconocido como intento de golpe de Estado por políticos de diversas ideologías, medios de comunicación y el Tribunal Constitucional. Los ministros renunciaron en bloque, las Fuerzas Armadas y la Policía Nacional se negaron a apoyar el acto. Castillo intentó llegar a la embajada de México pero fue arrestado por la SUAT de la policía en el cruce de las avenidas Garcilaso de la Vega y España. El Congreso lo vacó y fue trasladado al penal de Barbadillo. El juicio por el autogolpe inició el 4 de marzo de 2025, con pedido de 34 años de prisión para Castillo.",
+      "why_it_matters": "El intento de golpe de Estado demostró que la amenaza autoritaria puede venir de cualquier punto del espectro político. Los votantes deben valorar el compromiso democrático real de los candidatos.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Intento_de_autogolpe_de_Estado_en_Per%C3%BA_de_2022",
+        "https://es.wikipedia.org/wiki/Arresto_de_Pedro_Castillo",
+        "https://www.infobae.com/america/peru/2022/12/07/pedro-castillo-disolvio-el-congreso-de-la-republica-e-instalo-un-gobierno-de-excepcion/"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "involved",
+          "detail": "Castillo había sido electo con Perú Libre pero ya estaba distanciado del partido. Algunos congresistas, como Katy Ugarte, rechazaron que se tratara de un golpe de Estado.",
+          "evidence": [
+            {
+              "quote": "Algunos congresistas como Katy Ugarte, que compartían la línea política de Castillo, rechazaron que se tratara de un golpe de Estado y atribuyeron esa intención al Congreso.",
+              "source_description": "Wikipedia - Intento de autogolpe de Estado en Perú de 2022",
+              "source_url": "https://es.wikipedia.org/wiki/Intento_de_autogolpe_de_Estado_en_Per%C3%BA_de_2022"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boluarte_assumes_presidency_2022",
+      "title": "Dina Boluarte asume la presidencia como primera mujer en el cargo",
+      "date": "2022-12-07",
+      "category": "democracy",
+      "severity": "high",
+      "description": "Tras la vacancia de Castillo, la vicepresidenta Dina Boluarte juró como presidenta, convirtiéndose en la primera mujer en ocupar el cargo en la historia republicana del Perú. El 12 de diciembre propuso adelantar elecciones a abril de 2024, pero el Congreso rechazó la propuesta el 16 de diciembre. Aunque el Parlamento reconsideró y permitió elecciones anticipadas el 20 de diciembre, la iniciativa no se materializó y Boluarte confirmó su compromiso de concluir su mandato en 2026. Su gobierno, de tendencia conservadora, contó con la mayor impopularidad desde 1980 y fue catalogado como un régimen híbrido por mediciones internacionales. Desde el primer día de su gobierno, estallaron protestas en el sur del país.",
+      "why_it_matters": "La permanencia de Boluarte pese al rechazo mayoritario evidenció la desconexión entre la clase política y las demandas de las regiones. Los votantes deben considerar qué candidatos representan genuinamente la diversidad territorial del país.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Gobierno_de_Dina_Boluarte",
+        "https://es.wikipedia.org/wiki/Transmisión_de_mando_e_investidura_presidencial_de_Dina_Boluarte",
+        "https://www.infobae.com/america/agencias/2022/12/07/dina-boluarte-asume-como-primera-mujer-presidenta-de-peru/"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "Keiko Fujimori se reunió con Boluarte en Palacio de Gobierno en febrero de 2023. Fuerza Popular formó parte de la coalición que sostuvo al gobierno.",
+          "evidence": [
+            {
+              "quote": "El 15 de febrero de 2023, la presidenta Boluarte se reunió con la lideresa de Fuerza Popular, Keiko Fujimori, en Palacio de Gobierno.",
+              "source_description": "Wikipedia - Gobierno de Dina Boluarte",
+              "source_url": "https://es.wikipedia.org/wiki/Gobierno_de_Dina_Boluarte"
+            }
+          ]
+        },
+        "ALIANZA PARA EL PROGRESO": {
+          "stance": "supported",
+          "detail": "APP formó parte de la coalición Bloque Democrático que sostuvo al gobierno. César Acuña se reunió con Boluarte. En 2026 se reveló que cargos de Contraloría y SBS fueron designados a propuesta de Acuña.",
+          "evidence": [
+            {
+              "quote": "En marzo de 2026, el exministro de Economía de Boluarte José Arista reveló que los cargos de Contraloría General de la República y de presidente de la Superintendencia de Banca y Seguros habían sido designados por el gobierno de Boluarte a propuesta de César Acuña (líder de APP).",
+              "source_description": "Wikipedia - Gobierno de Dina Boluarte",
+              "source_url": "https://es.wikipedia.org/wiki/Gobierno_de_Dina_Boluarte"
+            }
+          ]
+        },
+        "PERU LIBRE": {
+          "stance": "opposed",
+          "detail": "Perú Libre rechazó incorporarse al gobierno de Boluarte pese a la oferta de esta.",
+          "evidence": [
+            {
+              "quote": "Según diputados de Perú Libre, la presidenta Boluarte le ofreció a su ex partido un lugar en el gobierno, a lo que los parlamentarios se negaron. [...] Vladimir Cerrón confirmó que el partido se negó a ingresar al gobierno.",
+              "source_description": "Wikipedia - Gobierno de Dina Boluarte",
+              "source_url": "https://es.wikipedia.org/wiki/Gobierno_de_Dina_Boluarte"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayacucho_massacre_2022",
+      "title": "Masacre de Ayacucho: 10 civiles muertos cerca del aeropuerto",
+      "date": "2022-12-15",
+      "category": "human_rights",
+      "severity": "high",
+      "description": "Los días 15 y 16 de diciembre de 2022, durante las protestas en Huamanga (Ayacucho), se produjo un enfrentamiento cuando manifestantes intentaron tomar el Aeropuerto Coronel FAP Alfredo Mendívil Duarte, que estaba resguardado por efectivos del Ejército y la Policía Nacional. Se reportó la muerte de 10 civiles y 61 heridos. El 90% de los heridos tenían heridas de bala, y todos los fallecidos tenían disparos en la cabeza o el torso. Al día siguiente se registraron saqueos e incendios de edificios públicos ante la falta de presencia policial. Las ministras de Cultura y Educación renunciaron al gobierno de Boluarte en respuesta a los hechos.",
+      "why_it_matters": "El uso de fuerza letal militar contra civiles constituye una grave violación de derechos humanos. Los votantes deben exigir a los candidatos un compromiso claro con el respeto a la vida y la prohibición del uso de las Fuerzas Armadas para reprimir protestas.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Masacre_de_Ayacucho",
+        "https://www.hrw.org/es/news/2022/12/22/peru-debe-investigar-muertes-y-lesiones-durante-las-protestas",
+        "https://www.idl-reporteros.pe/asi-mato-el-ejercito-en-ayacucho/"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "juliaca_massacre_2023",
+      "title": "Masacre de Juliaca: policía mata a 18 civiles durante protestas",
+      "date": "2023-01-09",
+      "category": "human_rights",
+      "severity": "high",
+      "description": "El 9 de enero de 2023, la Policía Nacional del Perú disparó contra manifestantes en Juliaca durante la paralización de la región Puno. Al menos 18 civiles, entre manifestantes y transeúntes, fueron asesinados y más de 100 resultaron heridos. Todas las muertes se atribuyeron a heridas de bala. Un policía también fue asesinado aquel día. Fue el episodio más mortífero de toda la convulsión social. Los manifestantes de Ananea, Azángaro, Ayaviri, Carabaya, Moho, Huancané y Putina habían marchado a Juliaca para participar en las protestas. La Comisión Interamericana de Derechos Humanos condenó la violencia perpetrada por la PNP. Los medios locales criticaron que los eventos fueron pasados por alto por los medios nacionales.",
+      "why_it_matters": "Juliaca fue la jornada más sangrienta del ciclo de protestas contra Boluarte. La falta de rendición de cuentas por estas muertes envía un mensaje de impunidad que amenaza el Estado de derecho.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Masacre_de_Juliaca",
+        "https://www.hrw.org/es/news/2023/05/10/peru-las-pruebas-refutan-la-version-oficial-sobre-las-muertes-en-juliaca",
+        "https://www.hrw.org/es/news/2023/04/26/peru-abusos-brutales-cometidos-por-las-fuerzas-de-seguridad"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "protest_death_toll_2022_2023",
+      "title": "Al menos 50 civiles muertos en protestas contra Boluarte; denuncia ante la CPI",
+      "date": "2023-02-17",
+      "category": "human_rights",
+      "severity": "high",
+      "description": "Entre diciembre de 2022 y febrero de 2023, la represión de las protestas contra el gobierno de Dina Boluarte causó la muerte de al menos 50 civiles en enfrentamientos, 21 civiles en accidentes de tránsito relacionados con bloqueos, un policía asesinado por un ex policía, y 6 militares ahogados. La Defensoría del Pueblo reportó 1,301 personas heridas al 17 de febrero, incluyendo 908 heridos en las protestas de 2023 y 393 en las de diciembre de 2022, además de 580 policías heridos. Amnistía Internacional condenó los 'ataques generalizados' hacia la población. En junio de 2024, el diplomático Harold Forsyth presentó una denuncia contra Boluarte ante la Corte Penal Internacional. En julio de 2024, el Congreso archivó las investigaciones contra Boluarte por las muertes.",
+      "why_it_matters": "La magnitud de las muertes y la denuncia ante la CPI colocan al Perú en una crisis de derechos humanos sin precedentes. Los votantes deben exigir que los candidatos se pronuncien sobre justicia para las víctimas.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Anexo:Fallecidos_durante_la_convulsi%C3%B3n_social_de_Per%C3%BA_de_2022-2023",
+        "https://www.hrw.org/es/report/2023/04/26/deterioro-letal/abusos-por-las-fuerzas-de-seguridad-y-crisis-democratica-en-el",
+        "https://www.amnesty.org/es/documents/amr46/8837/2024/es/"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "Fuerza Popular y Renovación Popular se negaron a participar en la comisión para indemnizar a las familias de las víctimas y continuaron promoviendo el gobierno de Boluarte.",
+          "evidence": [
+            {
+              "quote": "Se negaron a participar en la comisión partidos políticos de ideología conservadora como Fuerza Popular, Renovación Popular y Avanza País, que continúan promoviendo el gobierno de Dina Boluarte.",
+              "source_description": "Wikipedia - Fallecidos durante la convulsión social de Perú de 2022-2023",
+              "source_url": "https://es.wikipedia.org/wiki/Anexo:Fallecidos_durante_la_convulsi%C3%B3n_social_de_Per%C3%BA_de_2022-2023"
+            }
+          ]
+        },
+        "RENOVACION POPULAR": {
+          "stance": "supported",
+          "detail": "Renovación Popular se negó a participar en la comisión para indemnizar a las familias de las víctimas.",
+          "evidence": [
+            {
+              "quote": "Se negaron a participar en la comisión partidos políticos de ideología conservadora como Fuerza Popular, Renovación Popular y Avanza País, que continúan promoviendo el gobierno de Dina Boluarte.",
+              "source_description": "Wikipedia - Fallecidos durante la convulsión social de Perú de 2022-2023",
+              "source_url": "https://es.wikipedia.org/wiki/Anexo:Fallecidos_durante_la_convulsi%C3%B3n_social_de_Per%C3%BA_de_2022-2023"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ley_soto_prescription_2023",
+      "title": "Ley Soto (Ley 31751): prescripción que beneficia a políticos investigados",
+      "date": "2023-05-25",
+      "category": "corruption",
+      "severity": "high",
+      "description": "La Ley 31751, conocida como 'Ley Soto', fue propuesta por el congresista Flavio Cruz Mamani de Perú Libre y promulgada el 25 de mayo de 2023. Establece el acortamiento a un año del plazo de suspensión de la prescripción. El congresista Alejandro Soto (Alianza para el Progreso), como vocero de su bancada, incorporó el debate a la orden del día. El primero en beneficiarse fue el propio Soto, cuyo caso por presunta estafa prescribió gracias a la ley. El principal beneficiario fue Vladimir Cerrón (Perú Libre), quien invocó la ley para cinco carpetas fiscales en su contra, incluyendo su caso por irregularidades en una obra vial en Junín, archivado a 52 días de aprobada la ley. También se beneficiaron Joaquín Ramírez (ex secretario general de Fuerza Popular) y Martín Vizcarra. En noviembre de 2023, la Corte Suprema declaró la ley inconstitucional.",
+      "why_it_matters": "Leyes que benefician a políticos investigados debilitan el sistema de justicia y envían un mensaje de impunidad. Los votantes deben conocer qué congresistas y partidos aprobaron esta ley.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Ley_31751",
+        "https://www.infobae.com/peru/2023/08/21/ley-soto-fue-creada-para-beneficiar-a-vladimir-cerron-norma-de-peru-libre-lo-salvo-de-prision/",
+        "https://www.infobae.com/peru/2024/06/30/ley-soto-gobierno-y-poder-judicial-a-favor-de-que-el-congreso-derogue-cuestionada-norma/"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "supported",
+          "detail": "La ley fue propuesta por el congresista perulibrista Flavio Cruz y aprobada en dictamen por la Comisión de Justicia, presidida por el perulibrista Américo Gonza. Benefició directamente a Vladimir Cerrón.",
+          "evidence": [
+            {
+              "quote": "La Ley 31751 fue propuesta el 13 de enero de 2023 por el parlamentario perulibrista Flavio Cruz. [...] En el programa Contracorriente, de Willax, se denunció que dicha ley fue elaborada para beneficiar a Vladimir Cerrón [...] El caso fue archivado luego de 52 días de aprobada la ley.",
+              "source_description": "Wikipedia - Ley 31751",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_31751"
+            }
+          ]
+        },
+        "ALIANZA PARA EL PROGRESO": {
+          "stance": "supported",
+          "detail": "Alejandro Soto, vocero de la bancada de APP, firmó la incorporación del debate a la orden del día y fue el primer beneficiado por la ley.",
+          "evidence": [
+            {
+              "quote": "El 24 del mismo mes, con firma de Alejandro Soto, como vocero de la bancada de Alianza para el Progreso, la Junta de Portavoces acordó incorporar a la orden del día el debate de dicha propuesta. [...] El primero en ser beneficiado por dicha ley fue Alejandro Soto.",
+              "source_description": "Wikipedia - Ley 31751",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_31751"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cerron_fugitive_2023",
+      "title": "Vladimir Cerrón se fuga de la justicia y sigue dirigiendo Perú Libre",
+      "date": "2023-10-06",
+      "category": "corruption",
+      "severity": "high",
+      "description": "Vladimir Cerrón, fundador y secretario general de Perú Libre, se dio a la fuga en octubre de 2023 tras ser condenado por el delito de colusión agravada cuando fue gobernador regional de Junín. A pesar de tener orden de captura vigente, Cerrón continuó dirigiendo Perú Libre desde la clandestinidad, publicando en redes sociales y emitiendo directivas partidarias. Las autoridades no lograron capturarlo durante más de dos años, lo que generó sospechas de protección.",
+      "why_it_matters": "Que un prófugo de la justicia continúe liderando un partido político con representación congresal revela fallas graves en el sistema de justicia y la institucionalidad partidaria.",
+      "sources": [
+        "https://www.infobae.com/peru/2024/04/07/vladimir-cerron-cumplio-seis-meses-en-la-clandestinidad-por-que-no-pueden-capturarlo/",
+        "https://caretas.pe/home_web/home_principal/dos-anos-profugo-vladimir-cerron-sigue-evadiendo-a-la-justicia-y-haciendo-politica-en-redes/",
+        "https://elcomercio.pe/politica/profugo-vladimir-cerron-demanda-al-estado-y-pide-una-indemnizacion-de-mas-de-s-8-millones-tlcnota-noticia/"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "involved",
+          "detail": "El partido continuó bajo la dirección de Cerrón pese a ser prófugo. Su hermano Waldemar Cerrón, congresista, lo representó en el Congreso.",
+          "evidence": [
+            {
+              "quote": "La Ley 32108 fue propuesta por Waldemar Cerrón (Perú Libre). [...] el juez Jorge Chávez Tamariz, que se negó a aplicarla en el caso de los hermanos Vladimir y Waldemar Cerrón, afirmó que contravino la Convención de Palermo.",
+              "source_description": "Wikipedia - Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fujimori_release_2023",
+      "title": "Tribunal Constitucional restituye indulto a Alberto Fujimori",
+      "date": "2022-03-17",
+      "category": "justice",
+      "severity": "high",
+      "description": "El 17 de marzo de 2022, el Tribunal Constitucional del Perú, con voto dirimente del presidente Augusto Ferrero y los votos de los magistrados José Luis Sardón y Ernesto Blume, declaró fundada la demanda de habeas corpus contra la anulación del indulto a Alberto Fujimori, restituyéndolo. Fujimori había sido condenado en 2009 a 25 años de prisión como autor mediato de homicidio calificado y secuestro agravado por las masacres de Barrios Altos y La Cantuta, cometidas por el escuadrón Grupo Colina. El indulto humanitario original había sido otorgado por el expresidente Kuczynski el 24 de diciembre de 2017, en lo que fue criticado como un canje político por el apoyo de Kenji Fujimori para evitar la vacancia de Kuczynski. Fujimori fue liberado el 6 de diciembre de 2023 tras la orden del TC.",
+      "why_it_matters": "La liberación de Fujimori enfrentó al Perú con el sistema interamericano de derechos humanos y sentó un precedente sobre la impunidad en crímenes de lesa humanidad.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Indulto_a_Alberto_Fujimori",
+        "https://www.hrw.org/es/news/2023/12/06/peru-la-liberacion-de-fujimori-viola-el-derecho-internacional",
+        "https://www.oas.org/es/CIDH/jsForm/?File=/es/cidh/prensa/comunicados/2023/281.asp"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "El indulto beneficiaba al padre de Keiko Fujimori. El indulto original fue otorgado en un contexto de intercambio político con Kuczynski, donde Kenji Fujimori ayudó a Kuczynski a sobrevivir la votación de vacancia.",
+          "evidence": [
+            {
+              "quote": "Hubo críticas generalizadas en Perú de que el indulto fue motivado menos por clemencia que por el deseo de recompensar al hijo de Fujimori, Kenji, por su papel en ayudar a Kuczynski a sobrevivir al voto de vacancia presidencial contra él la semana anterior al indulto.",
+              "source_description": "Wikipedia - Indulto a Alberto Fujimori",
+              "source_url": "https://es.wikipedia.org/wiki/Indulto_a_Alberto_Fujimori"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "colaboracion_eficaz_weakened_2024",
+      "title": "Congreso debilita la colaboración eficaz, principal herramienta anticorrupción",
+      "date": "2024-04-11",
+      "category": "corruption",
+      "severity": "high",
+      "description": "El Congreso aprobó modificaciones a la Ley de Colaboración Eficaz que restringieron la capacidad de los fiscales para negociar con testigos clave en casos de corrupción y crimen organizado. La colaboración eficaz fue la herramienta que permitió destapar el escándalo Odebrecht en Perú. Las modificaciones formaron parte de un paquete legislativo que, según fiscales, jueces y organizaciones de la sociedad civil, favoreció al crimen organizado y la corrupción.",
+      "why_it_matters": "Sin colaboración eficaz, los grandes casos de corrupción se vuelven prácticamente imposibles de probar. Los votantes deben saber que esta ley protege a los corruptos.",
+      "sources": [
+        "https://www.infobae.com/peru/2024/03/21/congreso-promulga-por-insistencia-ley-que-debilita-la-colaboracion-eficaz-los-riesgos-de-esta-norma/",
+        "https://www.hrw.org/es/world-report/2025/country-chapters/peru",
+        "https://www.infobae.com/peru/2024/10/09/congreso-deja-la-puerta-abierta-a-la-impunidad-y-al-crimen-organizado-con-estas-tres-leyes-aprobadas-entre-el-2023-y-2024/"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "rolexgate_2024",
+      "title": "Rolexgate: escándalo de relojes de lujo no declarados de Boluarte",
+      "date": "2024-03-14",
+      "category": "corruption",
+      "severity": "high",
+      "description": "El 14 de marzo de 2024, un informe elaborado por el periodista Ernesto Cabral para La Encerrona reveló fotografías de Dina Boluarte luciendo relojes de una amplia colección, incluyendo varios Rolex, no declarados ante el JNE. Se detectaron inicialmente catorce relojes, cifra que aumentó a diecisiete. El gobernador regional de Ayacucho, Wilfredo Oscorima, fue vinculado como posible origen de los obsequios. El 20 de marzo, el Ministerio Público inició investigaciones por presunto enriquecimiento indebido. El 29 de marzo, fiscales allanaron el domicilio de Boluarte en Surquillo y el despacho en Palacio de Gobierno, hallando varios relojes y una pulsera de oro. También se reveló que Boluarte utilizó una pulsera Love Pave de Cartier valorada en más de 50,000 dólares. Boluarte confrontó verbalmente a los fiscales durante el allanamiento, negándose a entregar bienes.",
+      "why_it_matters": "El caso Rolex expone un posible conflicto de intereses entre la presidenta y un gobernador regional. Los votantes deben exigir transparencia patrimonial de todos los funcionarios públicos.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Caso_Rolex",
+        "https://www.infobae.com/peru/2024/04/01/los-rolex-desaparecidos-dina-boluarte-discutio-con-fiscal-y-se-nego-a-entregar-relojes-en-allanamiento/",
+        "https://www.infobae.com/peru/2024/05/27/dina-boluarte-cercada-por-el-rolexgate-fiscal-de-la-nacion-formula-denuncia-contra-presidenta-por-corrupcion/"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "opposed",
+          "detail": "Perú Libre, del que Boluarte fue miembro fundador, inició recolección de firmas para una moción de vacancia.",
+          "evidence": [
+            {
+              "quote": "El 20 de marzo, el partido Perú Libre, del que Dina Boluarte fue miembro desde su fundación y que la llevó como vicepresidenta junto a Pedro Castillo, inició una recolección de firmas para presentar una moción de vacancia presidencial.",
+              "source_description": "Wikipedia - Caso Rolex",
+              "source_url": "https://es.wikipedia.org/wiki/Caso_Rolex"
+            }
+          ]
+        },
+        "FUERZA POPULAR": {
+          "stance": "abstained",
+          "detail": "Fuerza Popular expresó preocupación y pidió aclaraciones pero no llegó a una condena directa.",
+          "evidence": [
+            {
+              "quote": "Fuerza Popular, el partido mayoritario en el Congreso que tuvo disputas electorales cuando Boluarte fue candidata, expresó su preocupación por los escándalos gubernamentales y solicitó aclaraciones sobre el origen de los relojes.",
+              "source_description": "Wikipedia - Caso Rolex",
+              "source_url": "https://es.wikipedia.org/wiki/Caso_Rolex"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "benavides_dismissed_2024",
+      "title": "Destitución de Patricia Benavides: fiscal de la Nación lideraba red criminal",
+      "date": "2024-05-23",
+      "category": "institutional",
+      "severity": "high",
+      "description": "La Junta Nacional de Justicia (JNJ) destituyó a la fiscal de la Nación, Patricia Benavides. Las investigaciones revelaron que Benavides utilizó su cargo para negociar con congresistas y traficar influencias. El caso evidenció la captura del Ministerio Público por intereses políticos.",
+      "why_it_matters": "Que la máxima autoridad del sistema fiscal haya sido destituida por irregularidades demuestra la vulnerabilidad de las instituciones de justicia ante la captura política.",
+      "sources": [
+        "https://www.infobae.com/peru/2024/05/23/patricia-benavides-es-destituida-como-fiscal-de-la-nacion-por-la-jnj/",
+        "https://www.gob.pe/institucion/jnj/noticias/959857-jnj-destituyo-a-patricia-benavides-del-cargo-de-fiscal-suprema-y-de-fiscal-de-la-nacion",
+        "https://www.infobae.com/peru/2024/05/23/patricia-benavides-y-su-caida-el-efimero-y-polemico-periodo-de-la-destituida-fiscal-de-la-nacion/"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "party_criminal_immunity_2024",
+      "title": "Congreso blinda a partidos políticos de la persecución penal",
+      "date": "2024-06-27",
+      "category": "corruption",
+      "severity": "high",
+      "description": "El Congreso aprobó legislación que prohíbe la investigación y sanción penal de partidos políticos como organizaciones criminales. La norma benefició a Fuerza Popular, cuyo caso Cócteles investigaba al partido por presunto lavado de activos. Keiko Fujimori defendió la promulgación de la norma.",
+      "why_it_matters": "Esta ley crea un blindaje legal sin precedentes para los partidos políticos, permitiéndoles recibir fondos ilícitos sin consecuencias penales como organización.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Ley_32108",
+        "https://lpderecho.pe/ley-excluye-responsabilidad-penal-partidos-politicos-ley-32054/",
+        "https://busquedas.elperuano.pe/dispositivo/NL/2296582-1"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "Principal beneficiaria de la ley. Keiko Fujimori defendió la norma y criticó la catalogación de 'procrimen' como parte de la 'narrativa caviar'.",
+          "evidence": [
+            {
+              "quote": "Keiko Fujimori, lideresa de Fuerza Popular, ha defendido la promulgación de la norma y ha criticado que la catalogación de 'procrimen' forma parte de la 'narrativa caviar'.",
+              "source_description": "Wikipedia - Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "organized_crime_law_weakened_2024",
+      "title": "Ley 32108: Congreso redefine crimen organizado y beneficia a mafias",
+      "date": "2024-08-09",
+      "category": "corruption",
+      "severity": "high",
+      "description": "La Ley 32108, conocida como 'Ley Pro Crimen', fue propuesta por Waldemar Cerrón (Perú Libre) y promulgada el 9 de agosto de 2024. Estableció una nueva tipificación del delito de organización criminal y modificó aspectos del allanamiento de inmuebles. La ley fue señalada como facilitadora del crimen y responsable del incremento de la extorsión. Un juez se negó a aplicarla en el caso de los hermanos Cerrón al considerar que contravino la Convención de Palermo. En la primera votación (30 de mayo de 2024), votaron a favor: Perú Libre, Bloque Magisterial, Perú Bicentenario, Alianza para el Progreso, Podemos Perú y Honor y Democracia. Votaron en contra: Cambio Democrático-Juntos por el Perú. Fuerza Popular mayoritariamente se abstuvo. Ante las críticas, el 16 de octubre de 2024 se aprobó una modificación con 81 votos a favor.",
+      "why_it_matters": "En medio de una crisis de seguridad ciudadana, el Congreso debilitó las herramientas para combatir el crimen organizado. Los votantes deben preguntarse a quién beneficia esta legislación.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Ley_32108",
+        "https://enfoquederecho.com/editorial-puertas-abiertas-al-crimen-el-impacto-de-la-ley-n-o-32108-en-peru/",
+        "https://www.comexperu.org.pe/articulo/ley-32108-de-crimen-organizado-urge-su-derogacion"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "supported",
+          "detail": "La ley fue propuesta por Waldemar Cerrón (Perú Libre). La bancada votó a favor.",
+          "evidence": [
+            {
+              "quote": "La Ley 32108 fue propuesta por Waldemar Cerrón (Perú Libre). [...] Las bancadas de Perú Libre, Bloque Magisterial, Perú Bicentenario, Alianza para el Progreso, Podemos Perú y Honor y Democracia votaron a favor.",
+              "source_description": "Wikipedia - Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        },
+        "ALIANZA PARA EL PROGRESO": {
+          "stance": "supported",
+          "detail": "APP votó a favor de la ley. Su jefe de prensa reconoció que la ley tenía 'interpretaciones que pueden prestarse a tergiversar las cosas'.",
+          "evidence": [
+            {
+              "quote": "El jefe de prensa de Alianza para el Progreso, Jair Ramírez, reconoció que las leyes cuentan con 'interpretaciones que pueden prestarse a tergiversar las cosas, que seguro analizaremos en este Congreso'.",
+              "source_description": "Wikipedia - Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        },
+        "FUERZA POPULAR": {
+          "stance": "abstained",
+          "detail": "En la primera votación, la mayoría de Fuerza Popular se abstuvo. Martha Chávez negó que las normas fueran 'procrímenes' porque 'empoderan a cierto grupo que ha utilizado la administración de justicia para perseguir' a Keiko Fujimori.",
+          "evidence": [
+            {
+              "quote": "A pesar de que algunos congresistas fujimoristas votaron a favor, la mayoría de la bancada de Fuerza Popular votó en abstención. [...] Martha Chávez negó que las normas sean 'procrímenes' porque 'empoderan a cierto grupo que ha utilizado la administración de justicia para perseguir' a Keiko Fujimori y a Alan García.",
+              "source_description": "Wikipedia - Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fujimori_death_2024",
+      "title": "Muerte de Alberto Fujimori: funeral de Estado para un condenado por crímenes de lesa humanidad",
+      "date": "2024-09-11",
+      "category": "justice",
+      "severity": "medium",
+      "description": "Alberto Fujimori falleció el 11 de septiembre de 2024. Su hija Keiko anunció la noticia a través de X. Fujimori había sido condenado a 25 años de prisión por las masacres de Barrios Altos y La Cantuta cometidas por el Grupo Colina. El gobierno de Boluarte declaró tres días de duelo nacional. Sus restos fueron velados en la Sala Nasca del Museo de la Nación. Boluarte y varios ministros y congresistas asistieron al velatorio. Se le rindieron honores de Estado en Palacio de Gobierno, donde el féretro fue resguardado por los Húsares de Junín y cubierto con la bandera peruana. Miles de simpatizantes acudieron al velatorio. Fue enterrado en el Campo Fe de Huachipa.",
+      "why_it_matters": "El funeral de Estado a un condenado por crímenes de lesa humanidad refleja cómo el país procesa su historia de violencia política. Los votantes deben considerar cómo cada candidato se posiciona frente al legado de derechos humanos.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Muerte_y_funeral_de_Alberto_Fujimori",
+        "https://es.wikipedia.org/wiki/Alberto_Fujimori",
+        "https://es.wikipedia.org/wiki/Indulto_a_Alberto_Fujimori"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "involved",
+          "detail": "Keiko Fujimori anunció el fallecimiento de su padre y organizó el funeral. Dirigentes de Fuerza Popular asistieron al velatorio.",
+          "evidence": [
+            {
+              "quote": "A las 6:26 p.m., Keiko Fujimori, a través de X, confirmó la noticia del deceso de Fujimori. [...] Entre los presentes al velorio estuvieron Dina Boluarte, presidente del Perú; Gustavo Adrianzén, presidente del Consejo de Ministros; [...] y los congresistas [...] Patricia Juárez [...] entre otros.",
+              "source_description": "Wikipedia - Muerte y funeral de Alberto Fujimori",
+              "source_url": "https://es.wikipedia.org/wiki/Muerte_y_funeral_de_Alberto_Fujimori"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toledo_convicted_2024",
+      "title": "Alejandro Toledo condenado a 20 años y 6 meses de prisión por sobornos de Odebrecht",
+      "date": "2024-10-21",
+      "category": "justice",
+      "severity": "medium",
+      "description": "El 21 de octubre de 2024, el expresidente Alejandro Toledo fue condenado a 20 años y 6 meses de prisión por los delitos de colusión y lavado de activos vinculados a sobornos de Odebrecht. Según declaraciones de Jorge Barata, ex directivo de Odebrecht, la empresa pagó alrededor de 20 millones de dólares (de 35 millones fijados inicialmente) en sobornos al expresidente para la adjudicación de los tramos 2 y 3 de la carretera Interoceánica Sur. Toledo fue extraditado desde Estados Unidos el 23 de abril de 2023 y recluido en el Penal de Barbadillo. El juicio inició el 16 de octubre de 2023.",
+      "why_it_matters": "La condena de Toledo muestra que, aunque lento, el sistema de justicia puede funcionar en casos emblemáticos de corrupción. Sin embargo, los votantes deben exigir que la justicia sea igual de firme con todos los investigados.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Juicio_a_Alejandro_Toledo",
+        "https://es.wikipedia.org/wiki/Caso_Odebrecht_en_Perú",
+        "https://www.infobae.com/peru/2024/10/21/alejandro-toledo-fue-condenado-a-20-anos-de-prision-es-el-primer-expresidente-condenado-por-el-caso-odebrecht/"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "castillo_convicted_2024",
+      "title": "Juicio a Pedro Castillo por intento de golpe de Estado",
+      "date": "2025-03-04",
+      "category": "justice",
+      "severity": "medium",
+      "description": "El 4 de marzo de 2025 se inició el juicio por el autogolpe de Estado del 7 de diciembre de 2022. Los acusados son Pedro Castillo, Betssy Chávez (expresidenta del Consejo de Ministros), Aníbal Torres, Willy Huerta (exministro del Interior) y tres oficiales policiales. La Fiscalía solicitó 34 años de prisión para Castillo, 25 años para Chávez, Huerta y los oficiales policiales, y 15 años para Torres. Se solicitó el pago de una reparación civil de más de 65 millones de soles. El 20 de febrero de 2024, el Tribunal Constitucional declaró que Castillo se había convertido en un gobernante de facto al vulnerar la Constitución.",
+      "why_it_matters": "El juicio reafirma que los intentos de quebrar el orden democrático tienen consecuencias penales, un precedente importante para la estabilidad institucional.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Intento_de_autogolpe_de_Estado_en_Per%C3%BA_de_2022",
+        "https://www.infobae.com/peru/2025/11/27/pedro-castillo-sentencia-en-vivo-pj-determina-hoy-si-expresidente-es-condenado-por-el-golpe-de-estado/",
+        "https://ojo-publico.com/politica/pedro-castillo-es-condenado-por-intento-golpe-estado-peru"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "security_crisis_2024_2025",
+      "title": "Crisis de seguridad: extorsión generalizada y estados de emergencia",
+      "date": "2024-12-31",
+      "category": "economy",
+      "severity": "high",
+      "description": "Entre 2024 y 2025, el Perú enfrentó una grave crisis de seguridad ciudadana. La extorsión afectó masivamente al sector transporte, generando movilizaciones. La Ley 32108 fue señalada como la principal responsable del incremento de los casos de extorsión. El gobierno declaró sucesivos estados de emergencia sin lograr reducir la violencia. El 8 de octubre de 2025, la agrupación musical Agua Marina sufrió un atentado en el Círculo Militar de Chorrillos que dejó cinco heridos, hecho que motivó críticas masivas contra el gobierno y precipitó la vacancia de Boluarte.",
+      "why_it_matters": "La inseguridad ciudadana es la principal preocupación de los peruanos. Los votantes deben evaluar críticamente las propuestas de seguridad de los candidatos.",
+      "sources": [
+        "https://www.infobae.com/peru/2026/01/01/el-peru-vivio-su-ano-mas-violento-el-2025-dejo-cifras-que-estremecen-y-una-criminalidad-desbordada/",
+        "https://www.infobae.com/peru/2025/01/01/los-25-crimenes-mas-sonados-del-2024-en-peru-que-exponen-la-ineficacia-del-estado/",
+        "https://www.comexperu.org.pe/articulo/crimen-organizado-y-violencia-en-aumento-un-desafio-urgente-para-el-pais"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "keiko_trial_annulled_2025",
+      "title": "TC anula el caso Cócteles contra Keiko Fujimori tras 7 años de proceso",
+      "date": "2025-10-20",
+      "category": "justice",
+      "severity": "high",
+      "description": "El juicio a Keiko Fujimori por el caso Cócteles comenzó el 1 de julio de 2024. Se le acusó de organización criminal, lavado de activos, obstrucción a la justicia y falsa declaración. El Ministerio Público sustentó la denuncia en aportaciones a las campañas electorales de 2011 y 2016 y citó a más de mil testigos. El juicio fue anulado en octubre de 2025 tras una resolución del Tribunal Constitucional, y archivado en enero de 2026. No obstante, se permitió que Fujimori fuera imputada por los presuntos delitos de falsa declaración en procedimiento administrativo y falsedad genérica.",
+      "why_it_matters": "La anulación del caso más importante de financiamiento ilegal de campañas demuestra cómo la captura del TC puede generar impunidad.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Juicio_a_Keiko_Fujimori",
+        "https://www.infobae.com/peru/2025/10/20/tribunal-constitucional-anula-el-caso-cocteles-contra-keiko-fujimori-y-fuerza-popular/",
+        "https://www.tc.gob.pe/institucional/notas-de-prensa/tc-declara-fundada-demanda-de-habeas-corpus-de-keiko-fujimori/"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "involved",
+          "detail": "Principal beneficiaria de la decisión. La defensa de Fuerza Popular buscó demostrar que el caso fue 'generado indebidamente' y citó a Jaime Villanueva como testigo.",
+          "evidence": [
+            {
+              "quote": "El juicio fue anulado en octubre de 2025, tras conocerse la resolución del Tribunal Constitucional, y archivado en enero de 2026. No obstante, se permitió que Fujimori fuera imputada por los presuntos delitos de falsa declaración en procedimiento administrativo y falsedad genérica.",
+              "source_description": "Wikipedia - Juicio a Keiko Fujimori",
+              "source_url": "https://es.wikipedia.org/wiki/Juicio_a_Keiko_Fujimori"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "congress_pro_crime_laws_cumulative",
+      "title": "Congreso aprueba leyes que favorecen al crimen organizado y la corrupción",
+      "date": "2024-12-31",
+      "category": "institutional",
+      "severity": "high",
+      "description": "Entre 2023 y 2024, el Congreso aprobó un conjunto de leyes que, según fiscales, jueces y organizaciones de la sociedad civil, favorecen al crimen organizado y la corrupción. Las principales fueron: la Ley 31751 o 'Ley Soto' (prescripción, propuesta por Perú Libre), la Ley 32108 o 'Ley Pro Crimen' (redefinición de crimen organizado, propuesta por Waldemar Cerrón de Perú Libre), y la ley que excluye la responsabilidad penal de partidos políticos. De cara a las elecciones de 2026, 10 de los 36 candidatos presidenciales han prometido revertir la Ley 32108.",
+      "why_it_matters": "El patrón legislativo muestra una estrategia de debilitamiento del sistema de justicia. Los votantes deben evaluar el historial de votación de los partidos en estas leyes.",
+      "sources": [
+        "https://www.hrw.org/es/report/2025/07/08/legislar-para-la-impunidad/como-el-congreso-del-peru-permite-el-avance-del-crimen",
+        "https://www.infobae.com/peru/2024/10/09/congreso-deja-la-puerta-abierta-a-la-impunidad-y-al-crimen-organizado-con-estas-tres-leyes-aprobadas-entre-el-2023-y-2024/",
+        "https://convoca.pe/agenda-propia/17-congresistas-votaron-de-manera-reiterada-favor-de-leyes-procrimen-y-ahora-buscan"
+      ],
+      "party_stances": {
+        "PERU LIBRE": {
+          "stance": "supported",
+          "detail": "Perú Libre fue autor de las principales leyes cuestionadas: la Ley Soto (Flavio Cruz) y la Ley 32108 (Waldemar Cerrón). La Comisión de Justicia, presidida por el perulibrista Américo Gonza, aprobó los dictámenes.",
+          "evidence": [
+            {
+              "quote": "La Ley 31751 fue propuesta el 13 de enero de 2023 por el parlamentario perulibrista Flavio Cruz. [...] La Ley 32108 fue propuesta por Waldemar Cerrón (Perú Libre).",
+              "source_description": "Wikipedia - Ley 31751 / Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        },
+        "ALIANZA PARA EL PROGRESO": {
+          "stance": "supported",
+          "detail": "APP votó a favor de las leyes y el congresista Alejandro Soto facilitó la Ley 31751.",
+          "evidence": [
+            {
+              "quote": "Las bancadas de Perú Libre, Bloque Magisterial, Perú Bicentenario, Alianza para el Progreso, Podemos Perú y Honor y Democracia votaron a favor [de la Ley 32108].",
+              "source_description": "Wikipedia - Ley 32108",
+              "source_url": "https://es.wikipedia.org/wiki/Ley_32108"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boluarte_vacancia_2025",
+      "title": "Vacancia de Boluarte por unanimidad: 121 votos del Congreso",
+      "date": "2025-10-10",
+      "category": "democracy",
+      "severity": "high",
+      "description": "El Congreso vacó a la presidenta Dina Boluarte por 'permanente incapacidad moral' de forma unánime con 121 votos a favor, superando los 87 votos necesarios. El trámite parlamentario completo duró menos de 8 horas, entre las 16:27 del 9 de octubre y las 00:07 del 10 de octubre de 2025. Correspondió a la aprobación de la cuarta de cinco mociones presentadas el 9 de octubre (la octava en total durante su mandato). Las siete mociones anteriores, promovidas solo por bancadas de izquierda y extrema izquierda, no habían sido admitidas a debate. Esta vez, bancadas de derecha como Somos Perú, Alianza para el Progreso y Fuerza Popular respaldaron el proceso. El detonante fue el atentado contra la agrupación musical Agua Marina en el Círculo Militar de Chorrillos el 8 de octubre, que dejó cinco heridos. Boluarte fue la sexta presidente en ser destituida bajo este procedimiento.",
+      "why_it_matters": "La unanimidad de la vacancia refleja el total desprestigio del gobierno de Boluarte. Los votantes deben exigir a los candidatos que se distancien del legado de este gobierno.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Proceso_de_vacancia_presidencial_contra_Dina_Boluarte",
+        "https://www.infobae.com/peru/2025/10/10/congreso-oficializo-la-vacancia-de-dina-boluarte-mediante-resolucion-publicada-en-el-peruano/",
+        "https://expansion.mx/mundo/2025/10/10/congreso-peru-destituye-a-dina-boluarte-como-presidenta"
+      ],
+      "party_stances": {
+        "FUERZA POPULAR": {
+          "stance": "supported",
+          "detail": "Fuerza Popular respaldó el proceso de vacancia tras haber sido sostén legislativo de Boluarte durante años.",
+          "evidence": [
+            {
+              "quote": "Bancadas de derecha, como Somos Perú, Alianza para el Progreso e incluso Fuerza Popular mostraron su respaldo en este nuevo proceso de vacancia.",
+              "source_description": "Wikipedia - Proceso de vacancia presidencial contra Dina Boluarte",
+              "source_url": "https://es.wikipedia.org/wiki/Proceso_de_vacancia_presidencial_contra_Dina_Boluarte"
+            }
+          ]
+        },
+        "ALIANZA PARA EL PROGRESO": {
+          "stance": "supported",
+          "detail": "APP respaldó el proceso de vacancia.",
+          "evidence": [
+            {
+              "quote": "Bancadas de derecha, como Somos Perú, Alianza para el Progreso e incluso Fuerza Popular mostraron su respaldo en este nuevo proceso de vacancia.",
+              "source_description": "Wikipedia - Proceso de vacancia presidencial contra Dina Boluarte",
+              "source_url": "https://es.wikipedia.org/wiki/Proceso_de_vacancia_presidencial_contra_Dina_Boluarte"
+            }
+          ]
+        },
+        "RENOVACION POPULAR": {
+          "stance": "supported",
+          "detail": "Renovación Popular había roto relaciones con el Bloque Democrático en 2024 por discrepancias, entrando en oposición al gobierno.",
+          "evidence": [
+            {
+              "quote": "En el caso de Renovación Popular, en el año 2024 había roto relaciones con el llamado 'Bloque Democrático' por discrepancias por la Mesa Directiva entrando en oposición al gobierno como a las bancadas que componían dicho bloque.",
+              "source_description": "Wikipedia - Proceso de vacancia presidencial contra Dina Boluarte",
+              "source_url": "https://es.wikipedia.org/wiki/Proceso_de_vacancia_presidencial_contra_Dina_Boluarte"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "candidates_with_convictions_2026",
+      "title": "Candidatos con sentencias penales postulan en las elecciones 2026",
+      "date": "2026-01-15",
+      "category": "institutional",
+      "severity": "high",
+      "description": "Según datos del Jurado Nacional de Elecciones y organizaciones de la sociedad civil, numerosos candidatos que postulan en las elecciones generales de 2026 tienen sentencias penales, incluyendo condenas por corrupción, violencia familiar y otros delitos. La legislación peruana permite la postulación de personas con sentencias no firmes o con penas suspendidas.",
+      "why_it_matters": "La presencia de candidatos con antecedentes penales refleja una crisis de la calidad de la representación política. Los votantes deben consultar los antecedentes de cada candidato en Voto Informado del JNE.",
+      "sources": [
+        "https://rpp.pe/politica/elecciones/elecciones-2026-252-candidatos-con-sentencias-penales-desde-corrupcion-violencia-familiar-hasta-hurto-noticia-1669755",
+        "https://www.infobae.com/peru/2025/12/31/35-partidos-politicos-tienen-candidatos-con-sentencias-penales-podemos-peru-y-fuerza-popular-encabezan-la-lista/",
+        "https://www.infobae.com/peru/2026/01/14/elecciones-2026-mas-de-250-candidatos-con-antecedentes-penales-buscan-una-curul-en-el-congreso/"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "acuna_app_scandals",
+      "title": "César Acuña y APP: plagio de tesis, exclusión electoral y expansión política",
+      "date": "2016-03-05",
+      "category": "corruption",
+      "severity": "medium",
+      "description": "César Acuña, fundador de Alianza para el Progreso, fue excluido del proceso electoral de 2016 por el Jurado Especial de Elecciones de Lima Centro el 5 de marzo de 2016, tras revelarse que realizó donaciones durante su campaña en violación del artículo 42 de la Ley de Partidos Políticos. APP fue fundado el 8 de diciembre de 2001 en Trujillo y se ha convertido en uno de los partidos con mayor presencia territorial, obteniendo en 2018 cuatro gobiernos regionales, 26 alcaldías provinciales y 235 alcaldías distritales. APP formó parte de la coalición Bloque Democrático que Acuña confirmó haber impulsado. El partido participó en las elecciones de 2021 con Acuña como candidato presidencial, quedando séptimo con el 6.02% y obteniendo 15 escaños congresales.",
+      "why_it_matters": "Los votantes deben conocer los antecedentes de los líderes partidarios. La concentración de poder político, económico y mediático en una sola persona es una amenaza para la democracia.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Alianza_para_el_Progreso_(Per%C3%BA)",
+        "https://es.wikipedia.org/wiki/César_Acuña_Peralta",
+        "https://www.infobae.com/peru/2025/06/10/plagios-y-tesis-que-no-existen-rodean-a-la-familia-acuna-los-escandalos-de-maria-virgilio-humberto-y-cesar-acuna/"
+      ],
+      "party_stances": {
+        "ALIANZA PARA EL PROGRESO": {
+          "stance": "involved",
+          "detail": "APP es el partido de Acuña. Fue excluido del proceso electoral de 2016 por donaciones ilegales durante campaña. El partido formó parte del Bloque Democrático en el Congreso.",
+          "evidence": [
+            {
+              "quote": "El 14 de febrero [...] un reportaje en el programa dominical Panorama en el que mostraban evidencia que el candidato presidencial César Acuña realizó donaciones durante su campaña, lo cual implicaba la violación del artículo 42 de la Ley de Partidos [...] el 5 de marzo de 2016, el Jurado Especial de Elecciones de Lima Centro decidió excluir a César Acuña del proceso electoral.",
+              "source_description": "Wikipedia - Alianza para el Progreso (Perú)",
+              "source_url": "https://es.wikipedia.org/wiki/Alianza_para_el_Progreso_(Per%C3%BA)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "antauro_humala_political_force",
+      "title": "Antauro Humala: condenado por el Andahuaylazo entra a la política electoral",
+      "date": "2022-08-20",
+      "category": "democracy",
+      "severity": "medium",
+      "description": "Antauro Humala, exmilitar y líder del movimiento etnocacerista, fue liberado el 20 de agosto de 2022 tras cumplir su condena de 19 años por el Andahuaylazo. El 1 de enero de 2005, Humala encabezó un levantamiento armado en Andahuaylas al frente de 160 reservistas, asaltando una comisaría y exigiendo la renuncia del presidente Toledo. Durante el asalto murieron cuatro policías y dos reservistas. Fue capturado el 4 de enero. Inicialmente condenado a 25 años, la pena fue reducida a 19 años por la Corte Suprema en 2011. Humala promueve el ultranacionalismo peruano, el irredentismo y el rechazo a la inmigración, y se ha declarado 'indiferente y sin remordimiento' por sus actos. Es promotor del partido A.N.T.A.U.R.O.",
+      "why_it_matters": "La irrupción de un líder condenado por violencia armada en la política electoral refleja la profundidad del descontento ciudadano y la crisis de los partidos tradicionales.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Andahuaylazo",
+        "https://www.infobae.com/america/peru/2022/08/20/quien-es-antauro-humala-sus-crimenes-ideas-radicales-y-el-hambre-de-poder-del-autor-del-andahuaylazo/",
+        "https://es.wikipedia.org/wiki/Antauro_Humala"
+      ],
+      "party_stances": {}
+    },
+    {
+      "id": "lopez_aliaga_investigations",
+      "title": "Rafael López Aliaga: empresario ultraconservador con cuestionamientos",
+      "date": "2024-12-01",
+      "category": "corruption",
+      "severity": "medium",
+      "description": "Rafael López Aliaga, líder de Renovación Popular, alcalde de Lima (2023-2025) y candidato presidencial para 2026, es empresario cofundador y accionista de Peruval Corp SA, empresa matriz de PeruRail. Obtuvo el tercer lugar en las elecciones de 2021 con el 11.75%, el mejor resultado de la extrema derecha en la historia electoral peruana. Refundó su partido sobre las bases de Solidaridad Nacional en octubre de 2020 con una ideología ultraconservadora y teoconservadora. Es miembro del Opus Dei y se ha descrito a sí mismo como 'el Bolsonaro peruano'. Durante la segunda vuelta de 2021, apoyó a Keiko Fujimori y afirmó que 'hay un fraude que ya no se puede tapar'. En 2024, Renovación Popular rompió relaciones con el Bloque Democrático por discrepancias.",
+      "why_it_matters": "Los votantes deben conocer los antecedentes y la trayectoria de los candidatos. Un candidato que controla empresas significativas mientras busca la presidencia genera preguntas sobre posibles conflictos de interés.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Renovaci%C3%B3n_Popular",
+        "https://www.infobae.com/peru/2026/01/04/confirman-que-rafael-lopez-aliaga-mantiene-deuda-coactiva-con-sunat-por-mas-de-s129-millones-empresa-fue-declarada-irregular/",
+        "https://es.wikipedia.org/wiki/Rafael_López_Aliaga"
+      ],
+      "party_stances": {
+        "RENOVACION POPULAR": {
+          "stance": "involved",
+          "detail": "Renovación Popular es el partido de López Aliaga, refundado sobre Solidaridad Nacional en 2020. Adopta una ideología ultraconservadora y teoconservadora.",
+          "evidence": [
+            {
+              "quote": "Renovación Popular es un partido político peruano de ideología ultraconservadora y fundamentalista cristiana. [...] fue renombrado por Rafael López Aliaga con su actual denominación.",
+              "source_description": "Wikipedia - Renovación Popular",
+              "source_url": "https://es.wikipedia.org/wiki/Renovaci%C3%B3n_Popular"
+            },
+            {
+              "quote": "López Aliaga obtuvo el 11.75 % de los votos válidos, obteniendo el tercer lugar [...] Durante la segunda vuelta, López Aliaga apoyó a Keiko Fujimori de Fuerza Popular en el balotaje, asegurando que 'hay un fraude que ya no se puede tapar'.",
+              "source_description": "Wikipedia - Renovación Popular",
+              "source_url": "https://es.wikipedia.org/wiki/Renovaci%C3%B3n_Popular"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

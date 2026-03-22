@@ -1,0 +1,1452 @@
+{
+  "election": "ELECCIONES GENERALES 2026",
+  "election_date": "2026-04-12",
+  "type": "PRESIDENCIAL",
+  "electoral_process_id": 124,
+  "total_parties": 36,
+  "total_with_plan": 36,
+  "generated_at": "2026-03-21T10:32:11",
+  "source": "JNE - Jurado Nacional de Elecciones (web.jne.gob.pe/serviciovotoinformado)",
+  "parties": [
+    {
+      "jne_id": 2980,
+      "party_name": "AHORA NACION",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "PABLO ALFONSO LOPEZ CHAU NAVA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "25331980",
+          "status": "INSCRITO",
+          "jne_profile_id": 248006,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "LUIS ALBERTO VILLANUEVA CARBAJAL",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "17826805",
+          "status": "INSCRITO",
+          "jne_profile_id": 244896,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/41377696-3376-4806-b0eb-87145ffa0bac.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "RUTH ZENAIDA BUENDIA MESTOQUIARI",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "80058209",
+          "status": "INSCRITO",
+          "jne_profile_id": 244518,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/bb54fed8-ee8d-4557-93cf-c3da557f4766.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29723,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/7d70c5e1-2246-42e8-90c2-372aa1cf7f52.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/f935e50c-929a-4279-a4de-6c03c6c24b8b.pdf"
+      }
+    },
+    {
+      "jne_id": 3025,
+      "party_name": "ALIANZA ELECTORAL VENCEREMOS",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "RONALD DARWIN ATENCIO SOTOMAYOR",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "41373494",
+          "status": "INSCRITO",
+          "jne_profile_id": 246962,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/bac0288d-3b21-45ac-8849-39f9177fb020.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "ELENA CARMEN RIVERA HUAMAN",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "41043546",
+          "status": "INSCRITO",
+          "jne_profile_id": 251739,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/fc0ec9cc-2b62-426c-8492-737d8ac1f1be.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "ALBERTO EUGENIO QUINTANILLA CHACON",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "01203752",
+          "status": "INSCRITO",
+          "jne_profile_id": 244635,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d0728126-14db-4141-806f-750a0cb2c9a6.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29733,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/9984addc-e998-43b1-920f-1178d4d973aa.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/d96622ee-a711-4a27-8fb3-639fa8023be7.pdf"
+      }
+    },
+    {
+      "jne_id": 1257,
+      "party_name": "ALIANZA PARA EL PROGRESO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "CESAR ACUÑA PERALTA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "17903382",
+          "status": "INSCRITO",
+          "jne_profile_id": 245682,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d6fe3cac-7061-474b-8551-0aa686a54bad.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "JESSICA MILAGROS TUMI RIVAS",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "41357841",
+          "status": "INSCRITO",
+          "jne_profile_id": 246620,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d951c8cb-15b3-4421-b700-6384aef3e365.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "ALEJANDRO SOTO REYES",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "23901989",
+          "status": "INSCRITO",
+          "jne_profile_id": 246179,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d5a27dce-413b-4512-9085-e85b7aca5de2.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29685,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/72576403-804a-4f28-85d3-bf4c7e648667.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/707fd179-701a-43e6-b814-71d8b9301852.pdf"
+      }
+    },
+    {
+      "jne_id": 2173,
+      "party_name": "AVANZA PAIS",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "JOSE DANIEL WILLIAMS ZAPATA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43287528",
+          "status": "INSCRITO",
+          "jne_profile_id": 251479,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/b60c471f-a6bb-4b42-a4b2-02ea38acbb0d.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "FERNAN ROMANO ALTUVE-FEBRES LORES",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08274679",
+          "status": "INSCRITO",
+          "jne_profile_id": 251985,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/204e6baf-f78a-4904-8fb3-a85880e30d89.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "ADRIANA JOSEFINA TUDELA GUTIERREZ",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "45591954",
+          "status": "INSCRITO",
+          "jne_profile_id": 247482,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/fec6933f-6903-49e2-b770-70256db5108b.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29691,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/5857261c-789e-4599-ac05-4531654b10b4.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/cb71b186-9375-402c-be01-81fde4a4f3e7.pdf"
+      }
+    },
+    {
+      "jne_id": 2995,
+      "party_name": "COOPERACION POPULAR",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "YONHY LESCANO ANCIETA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "01211014",
+          "status": "INSCRITO",
+          "jne_profile_id": 245572,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/b9db2b5c-02ff-4265-ae51-db9b1001ad70.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "CARMELA SILENE SALAZAR JAUREGUI",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43396799",
+          "status": "INSCRITO",
+          "jne_profile_id": 243645,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/c7a8ded6-df89-4780-9364-d85922852d95.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "VANESSA RUBITH LAZO VALLES",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43294868",
+          "status": "INSCRITO",
+          "jne_profile_id": 246583,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/97ea549d-873a-4a4f-86ac-fde9830a5bb1.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29748,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/582e0d55-19ee-4a7f-85ef-c254be5bada6.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/690d981f-30bb-4487-8d17-b995579c522b.pdf"
+      }
+    },
+    {
+      "jne_id": 2867,
+      "party_name": "DEMOCRATA UNIDO PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "CHARLIE CARRASCO SALAZAR",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40799023",
+          "status": "INSCRITO",
+          "jne_profile_id": 252874,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/12fa17db-f28f-4330-9123-88549539b538.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "MARIA EDITH PAREDES VERDY",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10762074",
+          "status": "INSCRITO",
+          "jne_profile_id": 248373,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/7cfdfa81-d715-4d12-b1a1-0cd5e13a115e.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "WILBERT GABINO SEGOVIA QUIN",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06246968",
+          "status": "INSCRITO",
+          "jne_profile_id": 243436,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/31fff580-04db-42ff-9835-e0e849bd6358.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29700,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/2e5235de-e828-45f0-92cc-017a830abc33.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/0479dbb9-475f-40fe-8288-df630419c7f4.pdf"
+      }
+    },
+    {
+      "jne_id": 2895,
+      "party_name": "DEMOCRATA VERDE",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ALEX GONZALES CASTILLO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09307547",
+          "status": "INSCRITO",
+          "jne_profile_id": 252943,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/c0ae56bf-21c1-4810-890a-b25c8465bdd9.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "MARITZA DEL CARMEN ROSARIO MILAGROS SANCHEZ PERALES",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07254352",
+          "status": "INSCRITO",
+          "jne_profile_id": 246163,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/8ddb50bf-2ec4-46d4-82f2-57bfb657d332.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "FELIX MEDARDO MURAZZO CARRILLO",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09453366",
+          "status": "INSCRITO",
+          "jne_profile_id": 243863,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/e3c30c51-1e5f-49ef-8bc5-3f5d2c0ad0c0.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29702,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/3f2a939b-edf2-4505-b709-df775a5e0038.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/49c261f9-1d57-4d77-a5d3-b3f5b4562ba7.pdf"
+      }
+    },
+    {
+      "jne_id": 2986,
+      "party_name": "DEMOCRATICO FEDERAL",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ARMANDO JOAQUIN MASSE FERNANDEZ",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08255194",
+          "status": "INSCRITO",
+          "jne_profile_id": 244662,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/cb1adeb7-7d2f-430c-ae87-519137d8edfa.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "VIRGILIO ACUÑA PERALTA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "16484970",
+          "status": "INSCRITO",
+          "jne_profile_id": 244223,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/4cbbc9ee-2f79-4475-bfb1-5d3603fb0a60.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "LYDIA LOURDES DIAZ PABLO",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06752545",
+          "status": "INSCRITO",
+          "jne_profile_id": 244208,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/a8d03557-7c89-4eb1-bc12-9c23942de599.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29729,
+        "full_plan_url": null,
+        "summary_plan_url": null
+      }
+    },
+    {
+      "jne_id": 2898,
+      "party_name": "FE EN EL PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ALVARO GONZALO PAZ DE LA BARRA FREIGEIRO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "41904418",
+          "status": "INSCRITO",
+          "jne_profile_id": 250367,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/5032fa7f-eff1-4181-bf51-e32f2dfde304.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "YESSIKA ROXSANA ARTEAGA NARVAEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40713950",
+          "status": "INSCRITO",
+          "jne_profile_id": 244505,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/954924da-df44-4c51-84ee-1fe30cb93445.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "SHELLAH BELEN PALACIOS RODRIGUEZ",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "41298823",
+          "status": "INSCRITO",
+          "jne_profile_id": 247655,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/2f7ead81-768f-40b0-b6af-848935719b30.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29696,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/b4869a0b-ff3d-47d7-af7b-62fd1295db83.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/f470547e-6200-48b8-8035-7cc227135a93.pdf"
+      }
+    },
+    {
+      "jne_id": 2857,
+      "party_name": "FRENTE DE LA ESPERANZA 2021",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "LUIS FERNANDO OLIVERA VEGA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06280714",
+          "status": "INSCRITO",
+          "jne_profile_id": 252450,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/3e2312e1-af79-4954-abfa-a36669c1a9e9.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "ELIZABETH MARIA DEL ROSARIO LEON CHINCHAY",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "16121633",
+          "status": "INSCRITO",
+          "jne_profile_id": 252087,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/46b7acd1-7b84-46d3-a810-f7b46b881bf2.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "CARLOS RICARDO CUARESMA SANCHEZ",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "23962652",
+          "status": "INSCRITO",
+          "jne_profile_id": 243625,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/f32e2132-fb90-43aa-9532-9229eb507285.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29699,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/d656b83f-3177-4053-a381-0f36ec99490a.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/a29bd31b-ba8f-403c-ac52-9d43d3782c7b.pdf"
+      }
+    },
+    {
+      "jne_id": 1366,
+      "party_name": "FUERZA POPULAR",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "KEIKO SOFIA FUJIMORI HIGUCHI",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10001088",
+          "status": "INSCRITO",
+          "jne_profile_id": 245741,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/251cd1c0-acc7-4338-bd8a-439ccb9238d0.jpeg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "LUIS FERNANDO GALARRETA VELARDE",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09537000",
+          "status": "INSCRITO",
+          "jne_profile_id": 246699,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/28a58063-8e4b-4dc5-b418-b84defcc0946.jpeg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "MIGUEL ANGEL TORRES MORALES",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40433187",
+          "status": "INSCRITO",
+          "jne_profile_id": 251995,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29690,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/da4b943d-4344-4743-9362-a11ccf3054cb.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/54765cdc-b494-409a-a30c-9e6bb2833566.pdf"
+      }
+    },
+    {
+      "jne_id": 3024,
+      "party_name": "FUERZA Y LIBERTAD",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "FIORELLA GIANNINA MOLINELLI ARISTONDO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "25681995",
+          "status": "INSCRITO",
+          "jne_profile_id": 253520,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/1de656b5-7593-4c60-ab7a-83d618a3d80d.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "GILBERT FELIX VIOLETA LOPEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "21871411",
+          "status": "INSCRITO",
+          "jne_profile_id": 253521,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/34f1d1e0-bb6c-473c-aeb0-680c1be39258.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "MARIA LUZ PARIONA ORE",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "80523585",
+          "status": "INSCRITO",
+          "jne_profile_id": 253522,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/323df864-304c-4b25-b6bb-69b57037bfa2.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29736,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/d4ab9fba-d366-4083-bbf5-63aa465114d9.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/de628fd3-12db-4fad-9880-e8614e2359b6.pdf"
+      }
+    },
+    {
+      "jne_id": 2985,
+      "party_name": "INTEGRIDAD DEMOCRATICA",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "WOLFGANG MARIO GROZO COSTA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07260881",
+          "status": "INSCRITO",
+          "jne_profile_id": 243593,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/064360d1-ce49-4abe-939c-f4de8b0130a2.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "BERTHA CECILIA AZABACHE MIRANDA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07255863",
+          "status": "INSCRITO",
+          "jne_profile_id": 250218,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/dca47fb5-b6f9-4a52-b9a7-929a06ac4095.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "WELLINGTON PRADA CHIPAYO",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "23990083",
+          "status": "INSCRITO",
+          "jne_profile_id": 247277,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/90b24c38-c96e-4cd0-91ce-8034404fb061.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29725,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/ee89ac99-516b-4665-9297-413a0cf104de.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/4229a340-5d25-45c0-87dc-3f18d294c22c.pdf"
+      }
+    },
+    {
+      "jne_id": 1264,
+      "party_name": "JUNTOS POR EL PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ROBERTO HELBERT SANCHEZ PALOMINO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "16002918",
+          "status": "INSCRITO",
+          "jne_profile_id": 246281,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/bb7c7465-9c6e-44eb-ac7d-e6cc7f872a1a.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "ANALI MARQUEZ HUANCA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "45442927",
+          "status": "INSCRITO",
+          "jne_profile_id": 245814,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/cd236409-a6a7-4b75-8b06-25db73f256bd.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "BRIGIDA CURO BUSTINCIO",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "02419321",
+          "status": "INSCRITO",
+          "jne_profile_id": 252388,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/ab29007e-b5ae-4ea4-a6c6-9aeeaa0ca50d.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29688,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/3dd0e649-061c-4f31-8c3f-7a0836b58bde.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/ec164ae5-0cc4-4a12-ac5e-762af886cc9a.pdf"
+      }
+    },
+    {
+      "jne_id": 2933,
+      "party_name": "LIBERTAD POPULAR",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "RAFAEL JORGE BELAUNDE LLOSA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10219647",
+          "status": "INSCRITO",
+          "jne_profile_id": 244462,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/3302e45b-55c8-4979-a60b-2b11097abf1d.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "PEDRO ALVARO CATERIANO BELLIDO",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08199906",
+          "status": "INSCRITO",
+          "jne_profile_id": 247382,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/8c2fed85-3a83-4227-80b8-6df2ae5627c9.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "TANIA ULRIKA PORLES BAZALAR",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07266096",
+          "status": "INSCRITO",
+          "jne_profile_id": 247235,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/0e26188d-ad29-40db-8472-b744e6868485.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29715,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/30bab146-a532-4d1b-87a7-e0f8078dc70b.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/77f7d01e-0ae1-4bff-8763-4e18303733c0.pdf"
+      }
+    },
+    {
+      "jne_id": 2956,
+      "party_name": "PAIS PARA TODOS",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "CARLOS GONSALO ALVAREZ LOAYZA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06002034",
+          "status": "INSCRITO",
+          "jne_profile_id": 247143,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/2bd18177-d665-413d-9694-747d729d3e39.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "MARIA CRISTINA CHAMBIZEA REYES",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "33344705",
+          "status": "INSCRITO",
+          "jne_profile_id": 248698,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/485bf361-0c32-473d-ae7f-2b628a6a1116.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "DIEGO EDGAR GUEVARA VIVANCO",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "42088694",
+          "status": "INSCRITO",
+          "jne_profile_id": 248124,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/208e60e5-a32b-4227-b278-6983b1f8daee.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29718,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/76291ee3-eba2-4c88-adef-2530f2d70bb8.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/fea1dba2-01b1-4831-ab7e-fbd1db6591c9.pdf"
+      }
+    },
+    {
+      "jne_id": 2930,
+      "party_name": "PARTIDO APRISTA PERUANO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "PITTER ENRIQUE VALDERRAMA PEÑA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43632186",
+          "status": "INSCRITO",
+          "jne_profile_id": 251216,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d72c4b29-e173-42b8-b40d-bdb6d01a526a.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "MARIA INES VALDIVIA ACUÑA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07627768",
+          "status": "INSCRITO",
+          "jne_profile_id": 244883,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/79bd9ce1-dcaa-4a2e-a716-03e6b62de4c4.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "LUCIO ANTONIO VASQUEZ SANCHEZ",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08745608",
+          "status": "INSCRITO",
+          "jne_profile_id": 251309,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/8c85c773-d873-4f6f-9775-ab4adf0a68b5.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29745,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/4d581919-b090-43d4-89e4-e284fde587b7.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/ed45f5ef-bec7-427c-b998-f4d5abec0d48.pdf"
+      }
+    },
+    {
+      "jne_id": 2941,
+      "party_name": "PARTIDO CIVICO OBRAS",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "RICARDO PABLO BELMONT CASSINELLI",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09177250",
+          "status": "INSCRITO",
+          "jne_profile_id": 251773,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/78647f15-d5d1-4ed6-8ac6-d599e83eeea3.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "DANIEL HUGO BARRAGAN COLOMA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10063223",
+          "status": "INSCRITO",
+          "jne_profile_id": 251521,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "DINA IRENE HANCCO HANCCO",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "01545223",
+          "status": "INSCRITO",
+          "jne_profile_id": 243959,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/fa703877-427f-4312-be04-95b2959bf6d3.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29712,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/5643db28-6dbd-4d35-b79e-30d20d3bed85.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/79008239-1adf-42aa-ae86-7d604e36d2b8.pdf"
+      }
+    },
+    {
+      "jne_id": 2961,
+      "party_name": "PARTIDO DEL BUEN GOBIERNO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "JORGE NIETO MONTESINOS",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06506278",
+          "status": "INSCRITO",
+          "jne_profile_id": 247704,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/9ae56ed5-3d0f-49ff-8bb9-0390bad71816.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "SUSANA FLOR DE MARIA MATUTE CHARUN",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06876967",
+          "status": "INSCRITO",
+          "jne_profile_id": 248478,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "CARLOS DAVID CABALLERO LEON",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43360309",
+          "status": "INSCRITO",
+          "jne_profile_id": 246783,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29720,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/19bde703-f7f4-4715-92f3-b82e19bbe651.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/a8762e2b-b6e6-4d27-84e4-4f0da5fc17b7.pdf"
+      }
+    },
+    {
+      "jne_id": 2840,
+      "party_name": "PARTIDO MORADO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "MESIAS ANTONIO GUEVARA AMASIFUEN",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09871134",
+          "status": "INSCRITO",
+          "jne_profile_id": 246025,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/1b861ca7-3a5e-48b4-9024-08a92371e33b.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "HEBER DIOMEDES CUEVA ESCOBEDO",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "29691345",
+          "status": "INSCRITO",
+          "jne_profile_id": 252805,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/617a4299-44e0-4a39-b538-a04833f4b066.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "MARISOL YOLANDA LIÑAN SOLIS",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "42570905",
+          "status": "INSCRITO",
+          "jne_profile_id": 252097,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/48f8c302-cea2-48af-86d8-9e61837ee63f.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29687,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/6eb5d4b8-bd18-4cf0-ae0e-e250ca085f5f.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/438a1d07-1ffb-4d88-a044-5e9a73097ce2.pdf"
+      }
+    },
+    {
+      "jne_id": 2869,
+      "party_name": "PARTIDO PATRIOTICO DEL PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "HERBERT CALLER GUTIERREZ",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43409673",
+          "status": "INSCRITO",
+          "jne_profile_id": 251964,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/6ad6c5ff-0411-4ddd-9cf7-b0623f373fcf.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "ROSSANA ELENA MONTES TELLO",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10610215",
+          "status": "INSCRITO",
+          "jne_profile_id": 250908,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/3a944297-5758-420f-a724-3dd08dc2d6ca.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "JORGE AQUILES CARCOVICH CORTELEZZI",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40758358",
+          "status": "INSCRITO",
+          "jne_profile_id": 251354,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/ffc5f1fc-b69c-4d63-9a10-ce18f911ad54.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29749,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/6de519cb-bb4d-4319-a11b-be65d4438f4f.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/a45d799b-a8c3-4505-9d13-73a4289fd9ee.pdf"
+      }
+    },
+    {
+      "jne_id": 2932,
+      "party_name": "PERU ACCION",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "FRANCISCO ERNESTO DIEZ-CANSECO TÁVARA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08263758",
+          "status": "INSCRITO",
+          "jne_profile_id": 250338,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/2d1bf7f2-6e88-4ea9-8ed2-975c1ae5fb92.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "ROBERTO DIEGO KOSTER JAUREGUI",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40676234",
+          "status": "INSCRITO",
+          "jne_profile_id": 247119,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/3666ebd1-3f9f-4571-b724-c198b5336ecb.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "CLARA AMELIA QUISPE TORRES",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "00076154",
+          "status": "INSCRITO",
+          "jne_profile_id": 247555,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/f3673cd7-c1c6-43d6-9f12-f46e3e8a311b.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29714,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/f4e5c2c2-b0df-4033-adda-6617af774154.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/04492ff5-792a-43c1-a952-05cc305c79b4.pdf"
+      }
+    },
+    {
+      "jne_id": 2218,
+      "party_name": "PERU LIBRE",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "VLADIMIR ROY CERRON ROJAS",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06466585",
+          "status": "INSCRITO",
+          "jne_profile_id": 244668,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/82ee0ff2-2336-4aba-9590-e576f7564315.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "FLAVIO CRUZ MAMANI",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "01311614",
+          "status": "INSCRITO",
+          "jne_profile_id": 252233,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/13c28c6d-bc50-4d72-9741-21a1cbc21c25.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "BERTHA ROJAS LOPEZ",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "19805447",
+          "status": "INSCRITO",
+          "jne_profile_id": 252374,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/216103bc-cf69-4adb-88d5-ae8654af7fd2.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29744,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/b2d25860-484e-4226-bd13-a57fb83c59cb.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/f4681d3f-c1ea-486b-a795-547995c21d33.pdf"
+      }
+    },
+    {
+      "jne_id": 2924,
+      "party_name": "PERU MODERNO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "CARLOS ERNESTO JAICO CARRANZA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "06529088",
+          "status": "INSCRITO",
+          "jne_profile_id": 251564,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/7d91e14f-4417-4d61-89ba-3e686dafaa95.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "MIGUEL ELIAS ALMENARA HUAYTA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09126471",
+          "status": "INSCRITO",
+          "jne_profile_id": 244364,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d29ca55d-5371-4580-8818-dbc8d7b533ff.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "LIZ VERONICA QUISPE SANTOS",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40727925",
+          "status": "INSCRITO",
+          "jne_profile_id": 253020,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/bfbc1964-0ba0-4420-ac5a-9c79b1374525.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29707,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/12de1a7b-008b-43c5-9159-c62c9b45eab1.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/c27a6054-ece1-4c00-a3d0-ad3c23b0b9bb.pdf"
+      }
+    },
+    {
+      "jne_id": 2925,
+      "party_name": "PERU PRIMERO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "MARIO ENRIQUE VIZCARRA CORNEJO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "04411300",
+          "status": "INSCRITO",
+          "jne_profile_id": 245614,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/ee7a080e-bc81-4c81-9e5e-9fd95ff459ab.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "CARLOS HERNAN ILLANES CALDERON",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "43594332",
+          "status": "INSCRITO",
+          "jne_profile_id": 252781,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/8d8d219e-8a5c-4a9f-a820-1224e5bc2e5a.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "JUDITH CARLA MENDOZA DIAZ",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40931145",
+          "status": "INSCRITO",
+          "jne_profile_id": 246250,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/a212143a-f760-4429-8ed9-dae007d52be6.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29709,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/f9624874-7cf6-4737-8db3-b73707c98e70.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/db264271-bd78-4c78-af6c-c1fd64a2d6f5.pdf"
+      }
+    },
+    {
+      "jne_id": 2731,
+      "party_name": "PODEMOS PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "JOSE LEON LUNA GALVEZ",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07246887",
+          "status": "INSCRITO",
+          "jne_profile_id": 247865,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/a669a883-bf8a-417c-9296-c14b943c3943.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "JAQUELINE CECILIA GARCIA RODRÍGUEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "49017178",
+          "status": "INSCRITO",
+          "jne_profile_id": 248128,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/686ce842-0028-46f6-8309-fe3abfafdb56.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "RAUL MARTIN NOBLECILLA OLAECHEA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07881480",
+          "status": "INSCRITO",
+          "jne_profile_id": 252832,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/71fdb03b-6e2e-4274-b12f-9ed3418cb0fd.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29694,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/67b637b0-e2f7-47cc-8b23-fa16be709cc2.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/57cca898-e581-4019-9be0-dd9c44076703.pdf"
+      }
+    },
+    {
+      "jne_id": 2931,
+      "party_name": "PRIMERO LA GENTE",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "MARIA SOLEDAD PEREZ TELLO DE RODRIGUEZ",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07867789",
+          "status": "INSCRITO",
+          "jne_profile_id": 253820,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/073703ca-c427-44f0-94b1-a782223a5e10.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "RAUL ALBERTO MOLINA MARTINEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07777874",
+          "status": "INSCRITO",
+          "jne_profile_id": 245035,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/2b0eda60-ff36-4a4c-93db-53d6517638fe.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "MANUEL ANTONIO ATO DEL AVELLANAL CARRERA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10867311",
+          "status": "INSCRITO",
+          "jne_profile_id": 245916,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/f488b171-cccb-495b-9400-52c83147e20b.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29704,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/1430b48a-b7d1-4acf-970e-7c5e58f450c2.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/1d58a0ed-0df0-4000-9792-df5ddd53ea2f.pdf"
+      }
+    },
+    {
+      "jne_id": 2921,
+      "party_name": "PRIN",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "WALTER GILMER CHIRINOS PURIZAGA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "18870364",
+          "status": "INSCRITO",
+          "jne_profile_id": 247615,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/a2d0f631-fe47-4c41-92ba-7ed9f4095520.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "JULIO ALBERTO VEGA YBAÑEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10684615",
+          "status": "INSCRITO",
+          "jne_profile_id": 251121,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/ae41c597-bcc5-4875-8a01-4fa8d5cdfb27.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "MAYRA LIZETH VARGAS GIL",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "46203141",
+          "status": "INSCRITO",
+          "jne_profile_id": 246829,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/7489c4f1-244a-4c6b-930a-9830bf024cb0.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29746,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/3b89548c-81fa-479d-9ff9-2b7011fec7d2.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/4ab0caad-f051-42a3-b3f8-236ba7df2e3b.pdf"
+      }
+    },
+    {
+      "jne_id": 2967,
+      "party_name": "PROGRESEMOS",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "PAUL DAVIS JAIMES BLANCO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40139245",
+          "status": "INSCRITO",
+          "jne_profile_id": 244717,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/929e1a63-335d-4f3a-ba26-f3c7ff136213.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "MONICA MARGOT GUILLEN TUANAMA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07641046",
+          "status": "INSCRITO",
+          "jne_profile_id": 248247,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/77d5c3f6-f480-4240-b1ff-e1bffda7f461.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "JORGE LUIS CALOGGERO ENCINA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "09392125",
+          "status": "INSCRITO",
+          "jne_profile_id": 249142,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/e32d6205-ae51-44e8-b2fd-85df91589b7f.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29722,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/b2f303a2-1e0d-4933-9d5f-04682a3710b0.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/ed137d45-cf88-47c0-9f15-4b10fd2107ea.pdf"
+      }
+    },
+    {
+      "jne_id": 2939,
+      "party_name": "PTE PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "NAPOLEON BECERRA GARCIA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08058852",
+          "status": "INSCRITO",
+          "jne_profile_id": 252572,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/bab206cb-b2d5-41ec-bde8-ef8cf3e0a2df.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "WINSTON CLEMENTE HUAMAN HENRIQUEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "16423581",
+          "status": "INSCRITO",
+          "jne_profile_id": 243985,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/cdbb82b3-f42d-4c4d-84bf-0bf882fdb0ca.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "NELIDA JULIANA CUAYLA CUAYLA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "04415907",
+          "status": "INSCRITO",
+          "jne_profile_id": 252137,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/e389ea77-e7de-4598-bf48-c441c3fdecba.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29717,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/6988c030-5c2b-40d8-b656-dc48899d4d8c.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/51124bb5-022b-487d-9afc-78211fe2113d.pdf"
+      }
+    },
+    {
+      "jne_id": 22,
+      "party_name": "RENOVACION POPULAR",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "RAFAEL BERNARDO LÓPEZ ALIAGA CAZORLA",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "07845838",
+          "status": "INSCRITO",
+          "jne_profile_id": 245620,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "NORMA MARTINA YARROW LUMBRERAS",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10806296",
+          "status": "INSCRITO",
+          "jne_profile_id": 251570,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/90b8a957-0b76-41a0-b2a0-62ad6e328327.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "JHON IVAN RAMOS MALPICA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40641108",
+          "status": "INSCRITO",
+          "jne_profile_id": 246127,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/a5e14bf4-b4f9-470b-8dd1-754e6d8519d3.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29683,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/2096b44a-f3b6-4c81-b03d-94fbfc9ac762.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/5a861148-6867-430a-9308-6eadf2868ed1.pdf"
+      }
+    },
+    {
+      "jne_id": 2927,
+      "party_name": "SALVEMOS AL PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ANTONIO ORTIZ VILLANO",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08587486",
+          "status": "INSCRITO",
+          "jne_profile_id": 248309,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/8e6b9124-2883-4143-8768-105f2ce780eb.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "JAIME JOSE EDUARDO FREUNDT LOPEZ",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "08223165",
+          "status": "RENUNCIA",
+          "jne_profile_id": 251136,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/b33fab85-a83e-4bec-81a9-3baa0df19a3a.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "GIOVANNA ANGELA DEMURTAS MOYA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "25782021",
+          "status": "INSCRITO",
+          "jne_profile_id": 249646,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/37786b21-b6e6-474a-95ad-9ff37f97706e.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29710,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/40877746-e670-42d3-840b-cdf683f46355.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/bf527749-0c7c-4642-a1d5-b8f15b4a8945.pdf"
+      }
+    },
+    {
+      "jne_id": 2935,
+      "party_name": "SICREO",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ALFONSO CARLOS ESPA Y GARCES-ALVEAR",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "10266270",
+          "status": "INSCRITO",
+          "jne_profile_id": 247389,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/85935f77-6c46-4eab-8c7e-2494ffbcece0.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "ALEJANDRO AGUSTIN SANTA MARIA SILVA",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "17876347",
+          "status": "INSCRITO",
+          "jne_profile_id": 249191,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/6d0f420a-7ccb-4c9f-8002-91aca63c7342.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "MELITZA MELANIA YANZICH VILLAGARCIA",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40311520",
+          "status": "INSCRITO",
+          "jne_profile_id": 245799,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/f387254c-0fe3-415f-b4bc-904723cd4719.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29716,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/e9d731a4-a79f-42e0-9ff7-29f6abe2bd3f.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/158f6b39-7a03-405f-b152-6a5a0af4f395.pdf"
+      }
+    },
+    {
+      "jne_id": 14,
+      "party_name": "SOMOS PERU",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "GEORGE PATRICK FORSYTH SOMMER",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "41265978",
+          "status": "INSCRITO",
+          "jne_profile_id": 250363,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/b1d60238-c797-4cba-936e-f13de6a34cc7.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "JOHANNA GABRIELA LOZADA BALDWIN",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "46195162",
+          "status": "INSCRITO",
+          "jne_profile_id": 250550,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/f33511ec-a8a9-4e47-993d-423c35ad0764.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "HERBE OLAVE UGARTE",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "25321515",
+          "status": "INSCRITO",
+          "jne_profile_id": 251378,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/b07366d9-0959-4c9e-9bb3-7a20abe3b97b.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29681,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/1334ac30-c28e-42a5-8fc5-79a4638ccd2a.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/c1e6b2ab-a51c-4881-9365-033ec7b23577.pdf"
+      }
+    },
+    {
+      "jne_id": 2998,
+      "party_name": "UN CAMINO DIFERENTE",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ROSARIO DEL PILAR FERNANDEZ BAZAN",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "18141156",
+          "status": "INSCRITO",
+          "jne_profile_id": 252493,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/ac0b0a59-ead5-4ef1-8ef8-8967e322d6ca.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "CESAR ARTURO FERNANDEZ BAZAN",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "18176466",
+          "status": "INSCRITO",
+          "jne_profile_id": 250404,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/d4b8d060-149a-4c91-996c-ecafe4bc0a0f.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "CARLOS DANILO PINILLOS VINCES",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "18132962",
+          "status": "INSCRITO",
+          "jne_profile_id": 243648,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/e24c5fe3-2b50-40f6-ad1c-e0b24d9805cf.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29731,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/de662f06-21d5-4523-a3ec-4fcbacabe16c.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/8334f8be-c20c-4910-b1e3-fcf1a35f8197.pdf"
+      }
+    },
+    {
+      "jne_id": 3023,
+      "party_name": "UNIDAD NACIONAL",
+      "electoral_process": "ELECCIONES GENERALES 2026",
+      "election_type": "PRESIDENCIAL",
+      "presidential_formula": {
+        "president": {
+          "full_name": "ROBERTO ENRIQUE CHIABRA LEON",
+          "position": "PRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40728264",
+          "status": "INSCRITO",
+          "jne_profile_id": 252200,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/5c703ce9-ba1e-4490-90bf-61006740166f.jpg",
+          "candidate_number": 1
+        },
+        "first_vice_president": {
+          "full_name": "JAVIER IGNACIO BEDOYA DENEGRI",
+          "position": "PRIMER VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "40672251",
+          "status": "INSCRITO",
+          "jne_profile_id": 246814,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/6318e942-2a13-472c-930e-b2414592bdec.jpg",
+          "candidate_number": 2
+        },
+        "second_vice_president": {
+          "full_name": "NELDY ROXANA MENDOZA FLORES",
+          "position": "SEGUNDO VICEPRESIDENTE DE LA REPÚBLICA",
+          "document_number": "29567624",
+          "status": "INSCRITO",
+          "jne_profile_id": 250098,
+          "photo_url": "https://mpesije.jne.gob.pe/apidocs/e014ce3f-dee4-4114-8413-2b40cfa21e18.jpg",
+          "candidate_number": 3
+        }
+      },
+      "government_plan": {
+        "plan_id": 29727,
+        "full_plan_url": "https://mpesije.jne.gob.pe/docs/ae0c9ba2-6278-4ca7-b077-16ed2cc39e76.pdf",
+        "summary_plan_url": "https://mpesije.jne.gob.pe/docs/030f130b-7d76-4e2f-a9f4-99fd09e5c74a.pdf"
+      }
+    }
+  ]
+}
