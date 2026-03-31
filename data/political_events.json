@@ -1139,14 +1139,74 @@
       "date": "2024-03-21",
       "category": "corruption",
       "severity": "high",
-      "description": "El pleno del Congreso aprobó este viernes modificar el Código Procesal Penal en referencia al proceso especial por colaboración eficaz. Al respecto, el ministro de Justicia, Eduardo Vega Luna, mostró su rechazo al cambio, afirmando que el Minjus “estuvo y está en contra de esta modificación”. El titular del Ministerio de Justicia y Derechos Humanos, declaró estar en desacuerdo con la aprobación del Congreso en cuanto a la modificación del Código Procesal Penal, con respecto a la colaboración eficaz. La norma fue impulsada por Podemos Perú, que tiene como líder al investigado por organización criminal y cohecho activo, José Luna Gálvez.",
-      "why_it_matters": "“Duro golpe a la lucha contra la corrupción. El Congreso de la República debilita la colaboración eficaz, herramienta fundamental para luchas contra el crimen. El Ministerio de Justicia y Derechos Humanos estuvo y está en contra de esta modificación”, manifestó a través de sus redes sociales.",
+      "description": "Nota de IDL-R: El autor de este artículo es uno de los juristas que ha estudiado con mayor profundidad el tema de la colaboración eficaz. ¿Procede reducir la pena (y hasta suspenderla o eliminarla en ciertos casos) a quien reconoce haber cometido uno o varios delitos graves, pero está dispuesto a confesar información clave sobre crimen organizado, siempre que esta se pueda probar? El tema ha sido discutido vivamente en el Derecho por mucho tiempo. Hubo etapas en las que primó la posición que sostenía que premiar la delación –aún entre delincuentes– era inmoral, como lo era que nuestra justicia se apoyara en la palabra de criminales.",
+      "why_it_matters": "Pero hace ya décadas que la posición a favor de la delación premiada fue ganando batallas y, finalmente, la guerra. En buena parte del mundo este tipo de “derecho premial” o “justicia negociada” ha sido aceptada bajo diversas denominaciones, tales como arrepentimiento, delación premiada, colaboración eficaz, etc. Hay asimismo tratados internacionales que la recomiendan desde el año 2000, como la Convención de Palermo.",
       "sources": [
+        "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces",
         "https://elbuho.pe/2021/07/minjus-congreso-modifica-codigo-procesal-penal-y-debilita-la-colaboracion-eficaz-contra-la-corrupcion",
-        "https://elbuho.pe/2024/06/ocde-cancelo-incorporacion-del-peru-por-culpa-del-congreso-al-vuelo",
-        "https://elbuho.pe/2023/12/paquetazo-de-reformas-aprueba-el-congreso-cambiando-el-marco-legal-vigente-video"
+        "https://elbuho.pe/2024/06/ocde-cancelo-incorporacion-del-peru-por-culpa-del-congreso-al-vuelo"
       ],
       "party_stances": {
+        "Fuerza Popular": {
+          "stance": "neutral",
+          "detail": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+          "evidence": [
+            {
+              "quote": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+              "source_url": "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces"
+            }
+          ]
+        },
+        "Alianza para el Progreso": {
+          "stance": "neutral",
+          "detail": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+          "evidence": [
+            {
+              "quote": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+              "source_url": "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces"
+            }
+          ]
+        },
+        "Renovación Popular": {
+          "stance": "neutral",
+          "detail": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+          "evidence": [
+            {
+              "quote": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+              "source_url": "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces"
+            }
+          ]
+        },
+        "Acción Popular": {
+          "stance": "neutral",
+          "detail": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+          "evidence": [
+            {
+              "quote": "Eso explica que dicho dictamen haya sido producto de una alianza entre Perú Libre, Fuerza Popular, Alianza para el Progreso, Acción Popular, Avanza País y Renovación Popular, enfrentados a las opiniones de fiscales, jueces, procuradores y muchos expertos.",
+              "source_url": "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces"
+            }
+          ]
+        },
+        "Perú Libre": {
+          "stance": "neutral",
+          "detail": "Actualmente estamos viendo otra gran ola de colaboradores que han dado información sobre los fenómenos Lava Jato, Lava Juez y las innumerables mafias regionales (incluida la de los Dinámicos del Centro, vinculada a Perú Libre).",
+          "evidence": [
+            {
+              "quote": "Actualmente estamos viendo otra gran ola de colaboradores que han dado información sobre los fenómenos Lava Jato, Lava Juez y las innumerables mafias regionales (incluida la de los Dinámicos del Centro, vinculada a Perú Libre).",
+              "source_url": "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces"
+            }
+          ]
+        },
+        "Fujimori": {
+          "stance": "neutral",
+          "detail": "Por ejemplo, en los casos de los miembros del destacamento Colina, los procesos de colaboración —decisivos para la condena de Fujimori, Montesinos y varios generales— demoraron varios años.",
+          "evidence": [
+            {
+              "quote": "Por ejemplo, en los casos de los miembros del destacamento Colina, los procesos de colaboración —decisivos para la condena de Fujimori, Montesinos y varios generales— demoraron varios años.",
+              "source_url": "https://www.idl-reporteros.pe/como-tumbar-las-colaboraciones-eficaces"
+            }
+          ]
+        },
         "Podemos Perú": {
           "stance": "neutral",
           "detail": "La norma fue impulsada por Podemos Perú, que tiene como líder al investigado por organización criminal y cohecho activo, José Luna Gálvez.",
@@ -1174,26 +1234,6 @@
             {
               "quote": "Mientras Dina Boluarte está por cumplir 100 días sin declarar una sola palabra a la prensa y vive en su hermetismo de Palacio, el expresidente del Perú, actualmente preso, Pedro Castillo, ha soltado una primicia.",
               "source_url": "https://elbuho.pe/2024/06/ocde-cancelo-incorporacion-del-peru-por-culpa-del-congreso-al-vuelo"
-            }
-          ]
-        },
-        "Fujimorismo": {
-          "stance": "against",
-          "detail": "Tribunal Constitucional\nEl pleno, sin debate, eligió a un cuestionado personaje, afín al fujimorismo, como magistrado del Tribunal Constitucional, donde había un puesto vacante.",
-          "evidence": [
-            {
-              "quote": "Tribunal Constitucional\nEl pleno, sin debate, eligió a un cuestionado personaje, afín al fujimorismo, como magistrado del Tribunal Constitucional, donde había un puesto vacante.",
-              "source_url": "https://elbuho.pe/2023/12/paquetazo-de-reformas-aprueba-el-congreso-cambiando-el-marco-legal-vigente-video"
-            }
-          ]
-        },
-        "Fujimori": {
-          "stance": "against",
-          "detail": "Tribunal Constitucional\nEl pleno, sin debate, eligió a un cuestionado personaje, afín al fujimorismo, como magistrado del Tribunal Constitucional, donde había un puesto vacante.",
-          "evidence": [
-            {
-              "quote": "Tribunal Constitucional\nEl pleno, sin debate, eligió a un cuestionado personaje, afín al fujimorismo, como magistrado del Tribunal Constitucional, donde había un puesto vacante.",
-              "source_url": "https://elbuho.pe/2023/12/paquetazo-de-reformas-aprueba-el-congreso-cambiando-el-marco-legal-vigente-video"
             }
           ]
         }
