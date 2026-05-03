@@ -12,7 +12,15 @@
 Plataforma electoral para las elecciones generales del Perú 2026 (12 de abril). Combina una brújula electoral (quiz adaptativo), un chatbot RAG sobre planes de gobierno, monitoreo de noticias, y seguimiento de eventos políticos.
 
 <p align="center">
-  <img src="docs/screenshot.png" alt="Chasqui — Tu mensajero electoral" width="720" />
+  <img src="docs/screenshot.png" alt="Chasqui — landing con Quiz Adaptativo, 13 temas y eventos políticos" width="720" />
+  <br/>
+  <em>Landing</em>
+</p>
+
+<p align="center">
+  <img src="docs/candidates.png" alt="Chasqui — listado de los 36 partidos políticos presidenciales" width="720" />
+  <br/>
+  <em>Listado de los 36 partidos presidenciales</em>
 </p>
 
 ## Requisitos
